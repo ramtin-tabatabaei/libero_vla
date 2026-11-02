@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "suite": "libero_90",
+  "task_id": 0,
+  "language": "close the top drawer of the cabinet",
+  "waypoints": [
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.017254089428814276,
+        0.013157358407006737,
+        0.052380504306228676
+      ],
+      "orientation": [
+        [
+          0.8016477466351756,
+          -0.5883100265687868,
+          -0.10607640149145485
+        ],
+        [
+          -0.5976588520883542,
+          -0.7925545896143086,
+          -0.12108310782980194
+        ],
+        [
+          -0.012836932467440556,
+          0.1604635008963912,
+          -0.9869582960008481
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "chocolate_pudding_1",
+      "offset": [
+        0.10873929707438021,
+        0.046893696682344145,
+        0.0738463301673253
+      ],
+      "orientation": [
+        [
+          -0.6447424152509484,
+          -0.75766701182223,
+          -0.10123199678335262
+        ],
+        [
+          -0.7637990619891446,
+          0.6333112858360727,
+          0.12461062610051173
+        ],
+        [
+          -0.03030199466825371,
+          0.15766266022438977,
+          -0.9870280009655716
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.02917472073802832,
+        0.007958237059171678,
+        0.07101866111108254
+      ],
+      "orientation": [
+        [
+          0.7708188731489868,
+          -0.625358973152645,
+          -0.12150892763411564
+        ],
+        [
+          -0.6355972482865794,
+          -0.7678301491575491,
+          -0.08033056712871887
+        ],
+        [
+          -0.04306277705689166,
+          0.1391510572800753,
+          -0.9893344128705839
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "chocolate_pudding_1",
+      "offset": [
+        0.11351990658223361,
+        0.04744697915288723,
+        0.05105838855858272
+      ],
+      "orientation": [
+        [
+          -0.6424570136586171,
+          -0.761823918451976,
+          -0.08290538508038212
+        ],
+        [
+          -0.7652052294143286,
+          0.6319178490499029,
+          0.1230479131440559
+        ],
+        [
+          -0.041351450734094145,
+          0.14249262902557225,
+          -0.9889317004705455
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.03688786096905206,
+        0.023865710193128865,
+        0.04553599358961872
+      ],
+      "orientation": [
+        [
+          0.7785393653618099,
+          -0.6140294700221015,
+          -0.12978546346339404
+        ],
+        [
+          -0.6250750337321594,
+          -0.7771668669262559,
+          -0.07275206634019235
+        ],
+        [
+          -0.0561930492745369,
+          0.13776600050957855,
+          -0.9888694910435982
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "chocolate_pudding_1",
+      "offset": [
+        0.1199780832178949,
+        0.022422860714474357,
+        0.07512111182555987
+      ],
+      "orientation": [
+        [
+          -0.6756702011021724,
+          -0.7348066740210223,
+          -0.05940480752186862
+        ],
+        [
+          -0.7302926453667352,
+          0.6561508327866376,
+          0.19010191150184433
+        ],
+        [
+          -0.10070963938870509,
+          0.17182909080700592,
+          -0.9799654749462514
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.042187791343340775,
+        0.010970546596883964,
+        0.03430180869908086
+      ],
+      "orientation": [
+        [
+          0.7233042243721485,
+          -0.6613307955103845,
+          -0.1986770694242386
+        ],
+        [
+          -0.6815679087131634,
+          -0.729932446344855,
+          -0.051612106965108026
+        ],
+        [
+          -0.11088816356025925,
+          0.17274316971334833,
+          -0.9787050692111571
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "chocolate_pudding_1",
+      "offset": [
+        0.013388854832096857,
+        0.15874937597573668,
+        0.2830996939775153
+      ],
+      "orientation": [
+        [
+          -0.6341904008694964,
+          -0.726303717059235,
+          0.2651140245836181
+        ],
+        [
+          -0.7358788539703202,
+          0.6722178082054583,
+          0.08127441547482982
+        ],
+        [
+          -0.23724427859131353,
+          -0.14354835045163605,
+          -0.9607856282013687
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish",
+      "reference": "chocolate_pudding_1",
+      "offset": [
+        0.008104199077868229,
+        0.14294220701954805,
+        0.2518096898194134
+      ],
+      "orientation": [
+        [
+          -0.356389455363579,
+          -0.8539382200698473,
+          -0.37917815391922244
+        ],
+        [
+          -0.8911179481495825,
+          0.18865495538086294,
+          0.4126961476630474
+        ],
+        [
+          -0.2808831760560371,
+          0.48497301379992547,
+          -0.828194311314976
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required"
+}

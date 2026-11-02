@@ -1,0 +1,11 @@
+{
+  "selected": 1,
+  "rollout_success": [
+    true
+  ],
+  "waypoints": 4,
+  "requested_runs": 1,
+  "requested_waypoints": 4,
+  "replay": "not run",
+  "source": "pi0.5 demonstration; 110 measured steps \u2192 4 waypoints; rollout success=True; selected demonstration 1/1; 1/1 rollouts succeeded; replay unverified"
+}

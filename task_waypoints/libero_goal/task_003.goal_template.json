@@ -1,0 +1,454 @@
+{
+  "version": 1,
+  "suite": "libero_goal",
+  "task_id": 3,
+  "language": "open the top drawer and put the bowl inside",
+  "waypoints": [
+    {
+      "name": "stage",
+      "reference": "wooden_cabinet_1_top_level",
+      "offset": [
+        -0.0027800000000000012,
+        -0.08490999999999999,
+        0.30393000000000003
+      ],
+      "orientation": [
+        [
+          -1.0,
+          -1.8369701987210297e-16,
+          0.0
+        ],
+        [
+          -1.8369701987210297e-16,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "reach",
+      "gripper": "close",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "engage",
+      "reference": "wooden_cabinet_1_top_level",
+      "offset": [
+        -0.0027800000000000012,
+        -0.08490999999999999,
+        0.18392999999999993
+      ],
+      "orientation": [
+        [
+          -1.0,
+          -1.8369701987210297e-16,
+          0.0
+        ],
+        [
+          -1.8369701987210297e-16,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "pull",
+      "reference": "Previous waypoint",
+      "offset": [
+        1.7881986399449868e-17,
+        0.14601750000000002,
+        -0.0
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "back_off",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.12
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "approach",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        -0.0001899068444709128,
+        -0.05389835589057356,
+        0.18713266616159252
+      ],
+      "orientation": [
+        [
+          6.462181850911618e-09,
+          -0.9999999990333809,
+          4.396860623196976e-05
+        ],
+        [
+          -0.9999999994036549,
+          -4.943710724295768e-09,
+          3.4535350566063646e-05
+        ],
+        [
+          -3.453535031531305e-05,
+          -4.3968606428923005e-05,
+          -0.9999999984370357
+        ]
+      ],
+      "motion": "reach",
+      "gripper": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "descend",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        -0.00018331155353611733,
+        -0.05389317558798865,
+        0.037132666396037135
+      ],
+      "orientation": [
+        [
+          6.462181850911618e-09,
+          -0.9999999990333809,
+          4.396860623196976e-05
+        ],
+        [
+          -0.9999999994036549,
+          -4.943710724295768e-09,
+          3.4535350566063646e-05
+        ],
+        [
+          -3.453535031531305e-05,
+          -4.3968606428923005e-05,
+          -0.9999999984370357
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "grasp",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "grip",
+      "gripper": "close",
+      "grasp": "akita_black_bowl_1",
+      "ignore": [
+        "akita_black_bowl_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "lift",
+      "reference": "wooden_cabinet_1_top_region",
+      "offset": [
+        -0.22000000000000003,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ],
+        [
+          -1.8369701987210302e-16,
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          -1.0000000000000002,
+          -1.8369701987210302e-16,
+          0.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1"
+      ],
+      "carry": true,
+      "seat": true,
+      "hold_xy": true,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "transfer",
+      "reference": "wooden_cabinet_1_top_region",
+      "offset": [
+        -0.22000000000000003,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ],
+        [
+          -1.8369701987210302e-16,
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          -1.0000000000000002,
+          -1.8369701987210302e-16,
+          0.0
+        ]
+      ],
+      "motion": "reach",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1"
+      ],
+      "carry": true,
+      "seat": true,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "lower",
+      "reference": "wooden_cabinet_1_top_region",
+      "offset": [
+        -0.07000000000000008,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.0,
+          0.0,
+          1.0000000000000002
+        ],
+        [
+          -1.8369701987210302e-16,
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          -1.0000000000000002,
+          -1.8369701987210302e-16,
+          0.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1",
+        "wooden_cabinet_1"
+      ],
+      "carry": true,
+      "seat": true,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "grip",
+      "gripper": "open",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1",
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "retreat",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1",
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "task goal template; review before running"
+}

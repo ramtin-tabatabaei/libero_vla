@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "suite": "libero_90",
+  "task_id": 43,
+  "language": "put the white bowl on top of the cabinet",
+  "waypoints": [
+    {
+      "name": "Reach & close gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        -0.007033812849776061,
+        0.08008348539410517,
+        0.03875811223975222
+      ],
+      "orientation": [
+        [
+          0.8918550087104237,
+          -0.45111107272274464,
+          -0.03306725729572185
+        ],
+        [
+          -0.44845261228318856,
+          -0.8914019189629462,
+          0.06552002293618334
+        ],
+        [
+          -0.059033024439808526,
+          -0.043605262711150214,
+          -0.9973032051935745
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "white_bowl_1",
+      "offset": [
+        -0.10235144017572785,
+        -0.17850854189990625,
+        0.16774702592047666
+      ],
+      "orientation": [
+        [
+          0.8015029921159361,
+          -0.5927576907762705,
+          -0.07893841684998952
+        ],
+        [
+          -0.5920355959833451,
+          -0.8051603260823633,
+          0.034795148966283516
+        ],
+        [
+          -0.08418317360283371,
+          0.018845936658169336,
+          -0.9962720632204988
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        -0.029224558318437236,
+        0.024132465436960942,
+        0.05582409875514239
+      ],
+      "orientation": [
+        [
+          0.7738896196855054,
+          -0.6324966672233716,
+          -0.03229276225952496
+        ],
+        [
+          -0.6308739171513978,
+          -0.7743748014657097,
+          0.048391812458228635
+        ],
+        [
+          -0.055614361464227074,
+          -0.01707725991688553,
+          -0.9983062706367498
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "wooden_two_layer_shelf_1",
+      "offset": [
+        -0.017659748804670715,
+        -0.21823498403821392,
+        0.026503771367651474
+      ],
+      "orientation": [
+        [
+          -0.6298812874613959,
+          -0.7751551368448378,
+          0.048827016384711104
+        ],
+        [
+          -0.7746625704898772,
+          0.6315342064882479,
+          0.03259521310366218
+        ],
+        [
+          -0.05610227792156318,
+          -0.017293347227118377,
+          -0.9982752498953843
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        -0.023146036833665118,
+        0.018533490723594365,
+        0.08547036711622079
+      ],
+      "orientation": [
+        [
+          0.7130970769175218,
+          -0.6964481747572775,
+          -0.08032744717055657
+        ],
+        [
+          -0.6984817017300489,
+          -0.715617811436567,
+          0.0038026705127577
+        ],
+        [
+          -0.06013211488029369,
+          0.05339557876819309,
+          -0.996761275796782
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "wooden_two_layer_shelf_1",
+      "offset": [
+        -0.11019878692706452,
+        -0.04075411342448436,
+        0.2791016227439582
+      ],
+      "orientation": [
+        [
+          -0.8379020528328672,
+          -0.533449617096281,
+          -0.1155493655469162
+        ],
+        [
+          -0.5409303815942548,
+          0.8398487463646443,
+          0.04525931393675775
+        ],
+        [
+          0.07290042610820394,
+          0.10042703445568409,
+          -0.9922700935852478
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        -0.13016427351301366,
+        -0.16509848914442346,
+        0.23261806853769793
+      ],
+      "orientation": [
+        [
+          0.5384681302614962,
+          -0.8327980447923512,
+          -0.12845033780695952
+        ],
+        [
+          -0.790151271686293,
+          -0.4460595574120077,
+          -0.42034728391406867
+        ],
+        [
+          0.292767895345817,
+          0.32783881379641033,
+          -0.8982252900154505
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        -0.12964828868791686,
+        -0.16488144840125374,
+        0.23202724661521315
+      ],
+      "orientation": [
+        [
+          0.5442712668845328,
+          -0.8287120964024414,
+          -0.13040340992539728
+        ],
+        [
+          -0.7884081207635236,
+          -0.4521708859708559,
+          -0.41707808021335174
+        ],
+        [
+          0.2866730248175255,
+          0.3298147224679285,
+          -0.8994669675343105
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish",
+      "reference": "wooden_two_layer_shelf_1",
+      "offset": [
+        -0.2108352342123071,
+        -0.1142440305894939,
+        0.31507016557492507
+      ],
+      "orientation": [
+        [
+          -0.7394853638296496,
+          -0.460261040448834,
+          -0.4912445127700515
+        ],
+        [
+          -0.5843399385049034,
+          0.8011965811580887,
+          0.1289607483255032
+        ],
+        [
+          0.3342278159426804,
+          0.3824183742781521,
+          -0.8614220533888359
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required"
+}

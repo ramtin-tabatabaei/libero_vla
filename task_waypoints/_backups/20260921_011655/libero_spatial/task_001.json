@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "suite": "libero_spatial",
+  "task_id": 1,
+  "language": "pick up the black bowl next to the ramekin and place it on the plate",
+  "waypoints": [
+    {
+      "name": "approach",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        -0.00018990684447087273,
+        -0.05389835589057354,
+        0.18713266616159252
+      ],
+      "orientation": [
+        [
+          6.462181850911618e-09,
+          -0.9999999990333809,
+          4.396860623196663e-05
+        ],
+        [
+          -0.9999999994036549,
+          -4.943710724295768e-09,
+          3.4535350566067244e-05
+        ],
+        [
+          -3.453535031531665e-05,
+          -4.396860642891988e-05,
+          -0.9999999984370357
+        ]
+      ],
+      "motion": "reach",
+      "gripper": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "descend",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        -0.00018331155353607775,
+        -0.05389317558798863,
+        0.037132666396037135
+      ],
+      "orientation": [
+        [
+          6.462181850911618e-09,
+          -0.9999999990333809,
+          4.396860623196663e-05
+        ],
+        [
+          -0.9999999994036549,
+          -4.943710724295768e-09,
+          3.4535350566067244e-05
+        ],
+        [
+          -3.453535031531665e-05,
+          -4.396860642891988e-05,
+          -0.9999999984370357
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Grasp & lift",
+      "reference": "plate_1",
+      "offset": [
+        -1.101814705280041e-05,
+        -4.1428639179008975e-06,
+        0.2014369609104045
+      ],
+      "orientation": [
+        [
+          8.04300366365509e-08,
+          -0.9999999985040746,
+          5.469774260114631e-05
+        ],
+        [
+          -0.9999999997885047,
+          -7.930509272075302e-08,
+          2.056655288965027e-05
+        ],
+        [
+          -2.0566548521074708e-05,
+          -5.469774424374662e-05,
+          -0.9999999982925862
+        ]
+      ],
+      "motion": "line",
+      "gripper": "close",
+      "grasp": "akita_black_bowl_1",
+      "ignore": [
+        "akita_black_bowl_1"
+      ],
+      "carry": true,
+      "seat": true,
+      "hold_xy": true,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "transfer",
+      "reference": "plate_1",
+      "offset": [
+        -1.101814705280041e-05,
+        -4.1428639179008975e-06,
+        0.2014369609104045
+      ],
+      "orientation": [
+        [
+          8.04300366365509e-08,
+          -0.9999999985040746,
+          5.469774260114631e-05
+        ],
+        [
+          -0.9999999997885047,
+          -7.930509272075302e-08,
+          2.056655288965027e-05
+        ],
+        [
+          -2.0566548521074708e-05,
+          -5.469774424374662e-05,
+          -0.9999999982925862
+        ]
+      ],
+      "motion": "reach",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1"
+      ],
+      "carry": true,
+      "seat": true,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "lower",
+      "reference": "plate_1",
+      "offset": [
+        -2.8134856626284672e-06,
+        -1.057880984453359e-06,
+        0.05143696116651665
+      ],
+      "orientation": [
+        [
+          8.04300366365509e-08,
+          -0.9999999985040746,
+          5.469774260114631e-05
+        ],
+        [
+          -0.9999999997885047,
+          -7.930509272075302e-08,
+          2.056655288965027e-05
+        ],
+        [
+          -2.0566548521074708e-05,
+          -5.469774424374662e-05,
+          -0.9999999982925862
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ],
+      "carry": true,
+      "seat": true,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Release & retreat",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "grasp": "",
+      "ignore": [
+        "akita_black_bowl_1",
+        "plate_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "Compact library: goal_template; seed 0 replay FAILED \u2014 see task report"
+}

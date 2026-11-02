@@ -1,0 +1,18 @@
+{
+  "suite": "libero_90",
+  "task_id": 3,
+  "replay_success": false,
+  "attempts": [],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "build_failed",
+  "language": "put the butter at the back in the top drawer of the cabinet and close it",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_003.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "error": "ValueError: Demonstration has 27 gripper transitions; cannot preserve them in nine waypoints.",
+  "seconds": 27.64,
+  "checked_at": "2026-09-21T01:26:55.195425+00:00"
+}

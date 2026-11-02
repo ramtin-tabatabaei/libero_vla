@@ -1,0 +1,10 @@
+{
+  "selected": 1,
+  "rollout_success": [
+    true,
+    true
+  ],
+  "waypoints": 8,
+  "replay": "not run",
+  "source": "pi0.5 phase plan; 126 measured steps \u2192 8 waypoints; rollout success=True; selected demonstration 1/2; 2/2 rollouts succeeded; replay unverified"
+}

@@ -1,0 +1,225 @@
+{
+  "version": 1,
+  "suite": "libero_spatial",
+  "task_id": 4,
+  "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+  "waypoints": [
+    {
+      "name": "Approach",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.05281154864115945,
+        0.07482060367881362,
+        0.13271018406525398
+      ],
+      "orientation": [
+        [
+          0.9869158865487354,
+          0.16061162476707774,
+          -0.014175290734168278
+        ],
+        [
+          0.1606943790397306,
+          -0.9869920573608304,
+          0.004898494836736666
+        ],
+        [
+          -0.013204144150763283,
+          -0.007112291916787206,
+          -0.9998875266153346
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.030486344156288456,
+        0.04065962235546097,
+        0.031755601629701945
+      ],
+      "orientation": [
+        [
+          0.8746507309514926,
+          0.4810221896453555,
+          -0.06003125781458221
+        ],
+        [
+          0.4821898221980393,
+          -0.8760474267048568,
+          0.005820784518881657
+        ],
+        [
+          -0.049790302415594505,
+          -0.03403761496608915,
+          -0.998179526213986
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Lift",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.11777845837305491,
+        0.014728933718387694,
+        0.19820900497986532
+      ],
+      "orientation": [
+        [
+          0.8636538162922476,
+          0.4825650740446545,
+          -0.14571559599476022
+        ],
+        [
+          0.4984922690585899,
+          -0.8605514041336169,
+          0.10467444068383323
+        ],
+        [
+          -0.0748835315182812,
+          -0.16304057824950235,
+          -0.9837734630245993
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Transfer",
+      "reference": "plate_1",
+      "offset": [
+        -0.08876675842582518,
+        -0.02022403497705947,
+        0.3544720337127697
+      ],
+      "orientation": [
+        [
+          0.8684983632424356,
+          0.47756570463356,
+          -0.13282165035511997
+        ],
+        [
+          0.48904837728356193,
+          -0.8692476631545365,
+          0.0723891205685537
+        ],
+        [
+          -0.08088434781539203,
+          -0.1278260453046445,
+          -0.9884929055993521
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Going down",
+      "reference": "plate_1",
+      "offset": [
+        0.04877998805810802,
+        -0.013035616477569678,
+        0.07578072842019645
+      ],
+      "orientation": [
+        [
+          0.9860287180111831,
+          0.11659518906356559,
+          -0.11896608400905488
+        ],
+        [
+          0.12632991287212,
+          -0.9889294429938539,
+          0.07784156918757697
+        ],
+        [
+          -0.10857311071780475,
+          -0.09178299770160674,
+          -0.9898422909544539
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish & open gripper",
+      "reference": "plate_1",
+      "offset": [
+        0.05470476093230333,
+        0.00039858408931779064,
+        0.04342841292083434
+      ],
+      "orientation": [
+        [
+          0.9871394063845179,
+          0.09750917672304009,
+          -0.1266797253612956
+        ],
+        [
+          0.11103578563941266,
+          -0.988306346682167,
+          0.10450655202035719
+        ],
+        [
+          -0.11500802872085393,
+          -0.11722851855474477,
+          -0.9864231484343825
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 phase plan; 123 measured steps \u2192 6 waypoints; rollout success=True; selected demonstration 1/2; 2/2 rollouts succeeded; replay unverified"
+}

@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "suite": "libero_90",
+  "task_id": 63,
+  "language": "stack the left bowl on the right bowl and place them in the tray",
+  "waypoints": [
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.03603951540349015,
+        0.02978847225230252,
+        0.02662113711109327
+      ],
+      "orientation": [
+        [
+          0.999566126288543,
+          0.024135163802049192,
+          -0.01688351399335147
+        ],
+        [
+          0.022801985115162498,
+          -0.9969125743539344,
+          -0.07513580085297514
+        ],
+        [
+          -0.01864480226023741,
+          0.07471822376942776,
+          -0.9970303698410683
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "wooden_tray_1",
+      "offset": [
+        0.04733364952679991,
+        -0.015495418580354829,
+        0.05020851573210049
+      ],
+      "orientation": [
+        [
+          0.08304994873865969,
+          -0.9903885828193393,
+          -0.11060362125902057
+        ],
+        [
+          -0.9942099516402155,
+          -0.08993738006409886,
+          0.05880339893890659
+        ],
+        [
+          -0.06818561486170203,
+          0.1050796016756283,
+          -0.9921234798338485
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_2",
+      "offset": [
+        0.014555400962209801,
+        -0.030366513772587683,
+        0.05111936310490197
+      ],
+      "orientation": [
+        [
+          0.3608820871036139,
+          -0.9311508728787529,
+          0.052174429990917134
+        ],
+        [
+          -0.9037459319641906,
+          -0.3629756143880731,
+          -0.226918473945553
+        ],
+        [
+          0.23023338086801678,
+          0.03473838362299639,
+          -0.9725152106971618
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "wooden_tray_1",
+      "offset": [
+        0.04161188936606599,
+        -0.003864447612795282,
+        0.08175750199513489
+      ],
+      "orientation": [
+        [
+          -0.8614494236947982,
+          -0.4579656711677299,
+          -0.2194819683887314
+        ],
+        [
+          -0.4667776184060689,
+          0.8842784610008139,
+          -0.013048308901596672
+        ],
+        [
+          0.20005885476794016,
+          0.09120881230409593,
+          -0.9755292959142835
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "wooden_tray_1",
+      "offset": [
+        0.052946230684707274,
+        0.04818233515229387,
+        0.06854043210430187
+      ],
+      "orientation": [
+        [
+          -0.9434511437594241,
+          -0.2620280634422296,
+          -0.20307937686469063
+        ],
+        [
+          -0.25724910525928696,
+          0.9650472674566867,
+          -0.050066649754902555
+        ],
+        [
+          0.20910006499839373,
+          0.005006550019589878,
+          -0.9778814331372543
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "akita_black_bowl_2",
+      "offset": [
+        0.1827342000456812,
+        -0.07375462737575983,
+        0.07119370068436887
+      ],
+      "orientation": [
+        [
+          0.25844862392364915,
+          -0.9649304245349849,
+          0.04597373814151467
+        ],
+        [
+          -0.9420230848066585,
+          -0.2622842996132349,
+          -0.20928319060005923
+        ],
+        [
+          0.2140019076628009,
+          0.01078062999677291,
+          -0.9767737514560646
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "wooden_tray_1",
+      "offset": [
+        0.0856138981309007,
+        0.0514968482905551,
+        0.08504733023309861
+      ],
+      "orientation": [
+        [
+          -0.9824232905432381,
+          -0.13656025467833105,
+          -0.12726262232245633
+        ],
+        [
+          -0.13365524214053576,
+          0.9905387166784375,
+          -0.03113401691705537
+        ],
+        [
+          0.13031022387577096,
+          -0.013577466745534913,
+          -0.9913802993555112
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "akita_black_bowl_2",
+      "offset": [
+        0.1777164979314201,
+        -0.04022502574176989,
+        0.08823209179366873
+      ],
+      "orientation": [
+        [
+          0.13154020930338117,
+          -0.9909743355644859,
+          0.0258271095740021
+        ],
+        [
+          -0.9825483831725738,
+          -0.13378965890791059,
+          -0.12922461798846827
+        ],
+        [
+          0.13151368013017992,
+          -0.008378151456604073,
+          -0.9912789509097761
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish",
+      "reference": "wooden_tray_1",
+      "offset": [
+        0.09939127616051656,
+        0.059968998564724825,
+        0.13497071993011595
+      ],
+      "orientation": [
+        [
+          -0.9946135656969062,
+          -5.4903029292276144e-05,
+          -0.10365255383898914
+        ],
+        [
+          0.006375235883029498,
+          0.9980741818688911,
+          -0.061703191604489824
+        ],
+        [
+          0.10345632556360632,
+          -0.06203164089722297,
+          -0.9926977708388772
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required"
+}

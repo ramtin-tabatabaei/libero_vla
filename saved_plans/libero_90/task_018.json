@@ -1,0 +1,247 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_90",
+  "task_id": 18,
+  "language": "put the frying pan on the stove",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.13595914557460387,
+        -0.0031929798388770146,
+        0.23265626688560626
+      ],
+      "orientation": [
+        [
+          0.4615799534882512,
+          0.8849206352482759,
+          0.06212419697319036
+        ],
+        [
+          0.8582546940336027,
+          -0.4277625798344358,
+          -0.2835807741414547
+        ],
+        [
+          -0.22437207203006018,
+          0.18421358420368436,
+          -0.9569339207530273
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.13595914557460406,
+        -0.003192979838877011,
+        0.02134050248105375
+      ],
+      "orientation": [
+        [
+          0.3373933246230397,
+          0.9411364394109353,
+          -0.020686877790285912
+        ],
+        [
+          0.8344245399325886,
+          -0.309165997273353,
+          -0.45623686094862176
+        ],
+        [
+          -0.43577681404371543,
+          0.13666963284823455,
+          -0.8896178841497225
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.135910546601404,
+        -0.003191178256908067,
+        0.2326562556933224
+      ],
+      "orientation": [
+        [
+          0.3373933246230397,
+          0.9411364394109353,
+          -0.020686877790285912
+        ],
+        [
+          0.8344245399325886,
+          -0.309165997273353,
+          -0.45623686094862176
+        ],
+        [
+          -0.43577681404371543,
+          0.13666963284823455,
+          -0.8896178841497225
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "flat_stove_1_cook_region",
+      "offset": [
+        -0.00513222384038118,
+        0.1263631852385459,
+        0.22679592352100597
+      ],
+      "orientation": [
+        [
+          -0.8853948441647781,
+          0.11249503230706528,
+          0.451021992404648
+        ],
+        [
+          0.16164842481075278,
+          0.984230010468731,
+          0.07184061002609615
+        ],
+        [
+          -0.43582766856021016,
+          0.1365143003459768,
+          -0.889616821512733
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "flat_stove_1_cook_region",
+      "offset": [
+        -0.00513222384038118,
+        0.1263631852385459,
+        0.05796368019118392
+      ],
+      "orientation": [
+        [
+          -0.8810852779954329,
+          0.12257172828818423,
+          0.456798538005712
+        ],
+        [
+          0.18020614509828145,
+          0.9799813604437713,
+          0.08463024548936285
+        ],
+        [
+          -0.43728077726847947,
+          0.15688436699435734,
+          -0.8855353280497915
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.9999999999999977,
+          6.39374564872621e-17,
+          -1.940927509401707e-17
+        ],
+        [
+          6.39374564872621e-17,
+          0.9999999999999974,
+          -4.9294272520033576e-17
+        ],
+        [
+          -1.940927509401707e-17,
+          -4.9294272520033576e-17,
+          0.9999999999999977
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    }
+  ],
+  "source": "pi0.5 keyframes; edited; replay unverified",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_90/task_018/20261008_013718_704205/model.json",
+  "execution_skill": {}
+}

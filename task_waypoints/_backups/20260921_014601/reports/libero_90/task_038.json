@@ -1,0 +1,71 @@
+{
+  "suite": "libero_90",
+  "task_id": 38,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Stopped at 1: failed: target missed by 3.4 cm",
+      "success": false,
+      "seconds": 5.58,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 3.4 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.035,
+      "result": "Stopped at 1: failed: target missed by 3.7 cm",
+      "success": false,
+      "seconds": 5.52,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 3.7 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Stopped at 1: failed: target missed by 3.7 cm",
+      "success": false,
+      "seconds": 5.49,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 3.7 cm"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "put the right moka pot on the stove",
+  "rollout_success": true,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_038.json",
+  "recorded_steps": 376,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 376 measured steps \u2192 9 waypoints; rollout success=True; replay FAILED \u2014 review required",
+  "seconds": 44.64,
+  "checked_at": "2026-09-21T01:38:14.848143+00:00"
+}

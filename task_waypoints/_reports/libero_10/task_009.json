@@ -1,0 +1,143 @@
+{
+  "suite": "libero_10",
+  "task_id": 9,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Stopped at 4: failed: target missed by 10.3 cm",
+      "success": false,
+      "seconds": 11.73,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "failed: target missed by 10.3 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.035,
+      "result": "Stopped at 4: failed: target missed by 10.3 cm",
+      "success": false,
+      "seconds": 11.31,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "failed: target missed by 10.3 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Stopped at 4: failed: target missed by 10.2 cm",
+      "success": false,
+      "seconds": 12.71,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "failed: target missed by 10.2 cm"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "put the yellow and white mug in the microwave and close it",
+  "rollout_success": true,
+  "demonstration": "task_waypoints/_demonstrations/libero_10/task_009.json",
+  "recorded_steps": 316,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 316 measured steps \u2192 9 waypoints; rollout success=True; replay FAILED \u2014 review required",
+  "seconds": 59.63,
+  "checked_at": "2026-09-21T01:25:45.435188+00:00"
+}

@@ -1,0 +1,130 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_90",
+  "task_id": 20,
+  "language": "turn on the stove",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "flat_stove_1_button",
+      "offset": [
+        7.268288630460364e-05,
+        -0.0008341431637678145,
+        0.09238944743274492
+      ],
+      "orientation": [
+        [
+          0.9970447515469307,
+          -0.07549587997679312,
+          0.014217437154672228
+        ],
+        [
+          -0.07595255985466957,
+          -0.9964997728311542,
+          0.03492007157752002
+        ],
+        [
+          0.011531351362274622,
+          -0.03589672483647976,
+          -0.9992889737617303
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Move",
+      "reference": "flat_stove_1_button",
+      "offset": [
+        0.00846,
+        0.027999999999999997,
+        0.02375
+      ],
+      "orientation": [
+        [
+          0.99500144774648,
+          -0.09724409580450502,
+          0.02270913502473641
+        ],
+        [
+          -0.09886420352125039,
+          -0.9913079239101193,
+          0.08680132058394362
+        ],
+        [
+          0.014070829560343476,
+          -0.08861256019420738,
+          -0.9959667795319835
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Push",
+      "reference": "flat_stove_1_button",
+      "offset": [
+        -0.012027999849435925,
+        0.024620504059456767,
+        0.02314950877557154
+      ],
+      "orientation": [
+        [
+          0.8556651413856988,
+          0.5024216422252399,
+          -0.12413564855062251
+        ],
+        [
+          0.5174952803308059,
+          -0.8278570907952911,
+          0.2164515466687549
+        ],
+        [
+          0.005983364666403984,
+          -0.24944965552922432,
+          -0.9683692832301211
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "push"
+    }
+  ],
+  "source": "pi0.5 keyframes; edited; replay unverified",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_90/task_020/20261022_075556_429208/model.json",
+  "execution_skill": {}
+}

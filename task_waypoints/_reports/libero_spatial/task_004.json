@@ -1,0 +1,101 @@
+{
+  "suite": "libero_spatial",
+  "task_id": 4,
+  "replay_success": true,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Finished 9 waypoints \u2022 task success: True",
+      "success": true,
+      "seconds": 23.62,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (1.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "ok (0.0cm)"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_passed",
+  "language": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+  "rollout_success": true,
+  "demonstration": "task_waypoints/_demonstrations/libero_spatial/task_004.json",
+  "recorded_steps": 120,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 120 measured steps \u2192 9 waypoints; rollout success=True; replay passed (seed 0)",
+  "seconds": 36.48,
+  "checked_at": "2026-09-21T01:18:03.215595+00:00"
+}

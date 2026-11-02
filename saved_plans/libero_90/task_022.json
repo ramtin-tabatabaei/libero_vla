@@ -1,0 +1,130 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_90",
+  "task_id": 22,
+  "language": "close the bottom drawer of the cabinet",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "white_cabinet_1_bottom_level",
+      "offset": [
+        0.044819676221093396,
+        -0.12994615799534295,
+        0.09968350069906706
+      ],
+      "orientation": [
+        [
+          -0.8067465041560414,
+          0.5901852046573328,
+          -0.02900865794183382
+        ],
+        [
+          0.5848938674538298,
+          0.8045671152374524,
+          0.10281498379800384
+        ],
+        [
+          0.0840192944918366,
+          0.06597864262065527,
+          -0.9942774144427841
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Move",
+      "reference": "white_cabinet_1_bottom_level",
+      "offset": [
+        0.05501,
+        -0.10710000000000001,
+        0.054150000000000004
+      ],
+      "orientation": [
+        [
+          -0.994076281727572,
+          0.10473638942862265,
+          0.02902817314508825
+        ],
+        [
+          0.10641159154419425,
+          0.9922670718962442,
+          0.06389547100918608
+        ],
+        [
+          -0.022111519434830522,
+          0.06660590634403282,
+          -0.9975343272030158
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Push",
+      "reference": "white_cabinet_1_bottom_level",
+      "offset": [
+        0.03305849673215446,
+        0.048438082190590676,
+        0.0898075873262405
+      ],
+      "orientation": [
+        [
+          -0.5872555983428444,
+          0.7324080563680697,
+          -0.34454216169016405
+        ],
+        [
+          -0.2831662065559699,
+          0.21286943658687513,
+          0.9351489199223219
+        ],
+        [
+          0.7582530986944178,
+          0.6467341354330461,
+          0.08238444262104783
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "push"
+    }
+  ],
+  "source": "pi0.5 keyframes; edited; replay unverified",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_90/task_022/20261008_014012_318012/model.json",
+  "execution_skill": {}
+}

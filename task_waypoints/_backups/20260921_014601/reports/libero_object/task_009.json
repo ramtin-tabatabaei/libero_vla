@@ -1,0 +1,191 @@
+{
+  "suite": "libero_object",
+  "task_id": 9,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Stopped at 6: failed: target missed by 4.8 cm",
+      "success": false,
+      "seconds": 11.47,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "failed: target missed by 4.8 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.035,
+      "result": "Stopped at 6: failed: target missed by 4.8 cm",
+      "success": false,
+      "seconds": 10.19,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "failed: target missed by 4.8 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Stopped at 6: failed: target missed by 4.8 cm",
+      "success": false,
+      "seconds": 10.31,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "failed: target missed by 4.8 cm"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "pick up the orange juice and place it in the basket",
+  "rollout_success": true,
+  "demonstration": "task_waypoints/_demonstrations/libero_object/task_009.json",
+  "recorded_steps": 120,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 120 measured steps \u2192 9 waypoints; rollout success=True; replay FAILED \u2014 review required",
+  "seconds": 42.97,
+  "checked_at": "2026-09-21T01:20:52.091551+00:00"
+}

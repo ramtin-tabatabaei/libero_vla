@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "suite": "libero_90",
+  "task_id": 45,
+  "language": "turn on the stove and put the frying pan on it",
+  "waypoints": [
+    {
+      "name": "Reach & close gripper",
+      "reference": "flat_stove_1",
+      "offset": [
+        -0.026119236035806598,
+        -0.008464311494151111,
+        0.021409479513013974
+      ],
+      "orientation": [
+        [
+          -0.011599127644834381,
+          0.99868698937162,
+          -0.04989746985294582
+        ],
+        [
+          0.9998318742152258,
+          0.012292224675556143,
+          0.013606047030342395
+        ],
+        [
+          0.014201533056155534,
+          -0.04973126252542205,
+          -0.9986616634208403
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "flat_stove_1",
+      "offset": [
+        -0.011715781347645643,
+        -0.025698845348795574,
+        0.02165043318923976
+      ],
+      "orientation": [
+        [
+          -0.7767173752409496,
+          0.6275173480996401,
+          -0.05414883962563236
+        ],
+        [
+          0.6294569874817824,
+          0.7763935092255603,
+          -0.0315756194361523
+        ],
+        [
+          0.022226558644259063,
+          -0.05860969771644011,
+          -0.9980335081671448
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.08124125896495445,
+        -0.03960511787954589,
+        0.12495383506597074
+      ],
+      "orientation": [
+        [
+          0.07802240121923824,
+          0.9734758043158114,
+          0.21507525036522668
+        ],
+        [
+          0.9955967592221278,
+          -0.06483837839667768,
+          -0.06769843213311713
+        ],
+        [
+          -0.05195765520476489,
+          0.21941021648631126,
+          -0.974248201931648
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "white_bowl_1",
+      "offset": [
+        0.04421672598169485,
+        -0.2525662613801307,
+        0.2093089489773752
+      ],
+      "orientation": [
+        [
+          0.0688435678437315,
+          0.9732598597708596,
+          0.219147914718233
+        ],
+        [
+          0.9945147489927414,
+          -0.04961320946073977,
+          -0.09208117876584392
+        ],
+        [
+          -0.07874628373738077,
+          0.2242850302757836,
+          -0.9713368354961839
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.12249565249172897,
+        -0.030313593560091067,
+        0.20953743702252978
+      ],
+      "orientation": [
+        [
+          0.06799948167300382,
+          0.9735793022508203,
+          0.21798947846399724
+        ],
+        [
+          0.9943794353671132,
+          -0.0483641919303559,
+          -0.09418303168778004
+        ],
+        [
+          -0.08115176529922496,
+          0.22316865184816254,
+          -0.9713959768400782
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.1938161763978328,
+        -0.008659211783076042,
+        0.22370965890506556
+      ],
+      "orientation": [
+        [
+          -0.007535541633275832,
+          0.9659443204761642,
+          0.25864026243439014
+        ],
+        [
+          0.99579376464703,
+          0.03086716864483278,
+          -0.08626700522182622
+        ],
+        [
+          -0.09131261633741694,
+          0.2569022920094106,
+          -0.9621139321608031
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.19831737100912322,
+        -0.007617217327572448,
+        0.22403404909259397
+      ],
+      "orientation": [
+        [
+          -0.008961831416355532,
+          0.9652138482972505,
+          0.26130807992266997
+        ],
+        [
+          0.9950712901432271,
+          0.03441604163590973,
+          -0.09299819143834902
+        ],
+        [
+          -0.09875633200131172,
+          0.2591867340998049,
+          -0.9607650200524158
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "flat_stove_1",
+      "offset": [
+        0.20534633516432316,
+        -0.05478557860801819,
+        0.17360122476947404
+      ],
+      "orientation": [
+        [
+          -0.996285063658649,
+          -0.05668496278772828,
+          0.06482967626353457
+        ],
+        [
+          -0.03484733152132233,
+          0.9537919467861624,
+          0.29844025487809844
+        ],
+        [
+          -0.07875109787503849,
+          0.29507242710835446,
+          -0.9522239901114968
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish",
+      "reference": "chefmate_8_frypan_1",
+      "offset": [
+        0.20910830608031594,
+        -0.03793332813526814,
+        0.29168823341597166
+      ],
+      "orientation": [
+        [
+          -0.44719387520621134,
+          -0.331001696306341,
+          0.8309365288759262
+        ],
+        [
+          -0.37343942310493417,
+          0.9132547441359448,
+          0.16281513929681232
+        ],
+        [
+          -0.8127488143633934,
+          -0.23749452489586217,
+          -0.5320110105960058
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required"
+}

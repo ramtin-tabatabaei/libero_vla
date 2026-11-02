@@ -1,0 +1,364 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_10",
+  "task_id": 9,
+  "language": "put the yellow and white mug in the microwave and close it",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "white_yellow_mug_1",
+      "offset": [
+        0.049372441054957646,
+        -0.0021272962866172637,
+        0.16197839969355723
+      ],
+      "orientation": [
+        [
+          -0.04304875401188019,
+          0.8431099388731381,
+          -0.5360153316383294
+        ],
+        [
+          0.9717810970345031,
+          0.1598812373022242,
+          0.17343439510408012
+        ],
+        [
+          0.23192305669000002,
+          -0.5134234323947763,
+          -0.8262009893745734
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "white_yellow_mug_1",
+      "offset": [
+        0.04937244105495778,
+        -0.0021272962866172667,
+        0.06118423518532301
+      ],
+      "orientation": [
+        [
+          -0.05462718748695498,
+          0.8659158223898391,
+          -0.49719780663452773
+        ],
+        [
+          0.9743643680939776,
+          0.15506251627462347,
+          0.16300212954252444
+        ],
+        [
+          0.21824286603708457,
+          -0.4755474787878729,
+          -0.852188152254189
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "white_yellow_mug_1",
+      "offset": [
+        0.049367088289977275,
+        -0.0021282860936722046,
+        0.16197839939957406
+      ],
+      "orientation": [
+        [
+          -0.05462718748695498,
+          0.8659158223898391,
+          -0.49719780663452773
+        ],
+        [
+          0.9743643680939776,
+          0.15506251627462347,
+          0.16300212954252444
+        ],
+        [
+          0.21824286603708457,
+          -0.4755474787878729,
+          -0.852188152254189
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "microwave_1_heating_region",
+      "offset": [
+        -0.02924,
+        -0.23443999999999998,
+        0.01353
+      ],
+      "orientation": [
+        [
+          0.9373443124027472,
+          0.2340319849662305,
+          0.25809817903074267
+        ],
+        [
+          0.07411583159827373,
+          -0.8577868614475046,
+          0.5086339979145456
+        ],
+        [
+          0.3404298510893479,
+          -0.45763602386700686,
+          -0.8213871110179893
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "microwave_1_heating_region",
+      "offset": [
+        -0.02924,
+        -0.09444000000000001,
+        -0.01647
+      ],
+      "orientation": [
+        [
+          0.9743936162619353,
+          -0.16317533277873889,
+          0.15469612587436138
+        ],
+        [
+          -0.2248490173160391,
+          -0.7071278517866062,
+          0.6703828164859773
+        ],
+        [
+          1.3877787807814457e-17,
+          -0.6880000087210811,
+          -0.7257106778874021
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          1.0000000000000033,
+          -1.366916746936652e-16,
+          1.2264227059382497e-16
+        ],
+        [
+          -1.366916746936652e-16,
+          1.0000000000000036,
+          -2.396271923980687e-17
+        ],
+        [
+          1.2264227059382497e-16,
+          -2.396271923980687e-17,
+          1.0000000000000033
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    },
+    {
+      "name": "Move",
+      "reference": "microwave_1_microjoint",
+      "offset": [
+        0.13275,
+        0.0172,
+        0.17079
+      ],
+      "orientation": [
+        [
+          -0.5153657677545382,
+          0.6043086708178063,
+          -0.6076258353634975
+        ],
+        [
+          0.8211878593932197,
+          0.5509931979449508,
+          -0.148515976930345
+        ],
+        [
+          0.24504820956692125,
+          -0.575515009528691,
+          -0.7802139762880651
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Move",
+      "reference": "microwave_1_microjoint",
+      "offset": [
+        0.18008,
+        -0.08449,
+        0.07156
+      ],
+      "orientation": [
+        [
+          -0.7093940332537866,
+          0.4845027931094931,
+          -0.5118761071324023
+        ],
+        [
+          0.6288177137916526,
+          0.7631125647979369,
+          -0.14915594614145072
+        ],
+        [
+          0.31835261645816937,
+          -0.4276871016486368,
+          -0.8460114388574326
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Push",
+      "reference": "microwave_1_microjoint",
+      "offset": [
+        0.0,
+        0.14114000000000002,
+        0.04736
+      ],
+      "orientation": [
+        [
+          -0.7890748977538068,
+          0.3460805639163704,
+          -0.5075323132709333
+        ],
+        [
+          0.4035809571756439,
+          0.9149369598967834,
+          -0.0035735724451855465
+        ],
+        [
+          0.46312332778646415,
+          -0.20765019309925287,
+          -0.8616253133269893
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "push"
+    }
+  ],
+  "source": "pi0.5 keyframes; edited; replay unverified",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_10/task_009/20261006_030817_218898/model.json",
+  "execution_skill": {}
+}

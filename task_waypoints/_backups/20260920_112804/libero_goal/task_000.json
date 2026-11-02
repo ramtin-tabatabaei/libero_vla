@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "suite": "libero_goal",
+  "task_id": 0,
+  "language": "open the middle drawer of the cabinet",
+  "waypoints": [
+    {
+      "name": "stage",
+      "reference": "wooden_cabinet_1_middle_level",
+      "offset": [
+        -0.0027800000000000012,
+        -0.08490999999999999,
+        0.23040999999999978
+      ],
+      "orientation": [
+        [
+          -1.0,
+          -1.8369701987210297e-16,
+          0.0
+        ],
+        [
+          -1.8369701987210297e-16,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "reach",
+      "gripper": "close",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "engage",
+      "reference": "wooden_cabinet_1_middle_level",
+      "offset": [
+        -0.0027800000000000012,
+        -0.08490999999999999,
+        0.1104099999999999
+      ],
+      "orientation": [
+        [
+          -1.0,
+          -1.8369701987210297e-16,
+          0.0
+        ],
+        [
+          -1.8369701987210297e-16,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "pull",
+      "reference": "Previous waypoint",
+      "offset": [
+        1.7881986399449868e-17,
+        0.14601750000000002,
+        -0.0
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "back_off",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.12
+      ],
+      "orientation": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "grasp": "",
+      "ignore": [
+        "wooden_cabinet_1"
+      ],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "task goal template; review before running"
+}

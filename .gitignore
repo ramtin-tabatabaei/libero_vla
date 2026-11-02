@@ -1,0 +1,31 @@
+# Vendored upstream repositories -- cloned separately, see README.md
+/LIBERO/
+/GalaxeaVLA/
+
+# Model weights and training output (tens of GB)
+/checkpoints/
+/waypoint_models/
+/experiments/
+/recovery/runs/
+
+# Generated knowledge graph (rebuild with update_graphify.py)
+/graphify-out/
+
+# Rollout and evaluation artifacts
+/obs_check/
+/shuffle_eval_out/
+/videos/
+/backups/
+*.log
+
+# Data not tracked in this repo
+/task_waypoints_gmm/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Tooling caches and local settings
+/.uv-cache/
+.claude/settings.local.json

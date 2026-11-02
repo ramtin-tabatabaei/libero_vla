@@ -1,0 +1,53 @@
+{
+  "successes": 8,
+  "attempts": [
+    {
+      "attempt": 0,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_000.json"
+    },
+    {
+      "attempt": 1,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_001.json"
+    },
+    {
+      "attempt": 2,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_002.json"
+    },
+    {
+      "attempt": 3,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_003.json"
+    },
+    {
+      "attempt": 4,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_004.json"
+    },
+    {
+      "attempt": 5,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_005.json"
+    },
+    {
+      "attempt": 6,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_006.json"
+    },
+    {
+      "attempt": 7,
+      "success": true,
+      "usable": true,
+      "file": "demonstrations/object0_soup_bank/demo_007.json"
+    }
+  ]
+}

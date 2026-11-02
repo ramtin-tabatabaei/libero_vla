@@ -1,0 +1,286 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_90",
+  "task_id": 24,
+  "language": "put the black bowl in the bottom drawer of the cabinet",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.1549611156160069
+      ],
+      "orientation": [
+        [
+          0.9999999999999972,
+          -2.3649712675506152e-17,
+          -2.2557817056283036e-18
+        ],
+        [
+          -2.3649712675506152e-17,
+          0.9999999999999972,
+          -2.3654688005749123e-18
+        ],
+        [
+          -2.2557817056283036e-18,
+          -2.3654688005749123e-18,
+          0.9999999999999971
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Move",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        -0.03738132051934173,
+        0.027122788657665278,
+        0.42983573534080766
+      ],
+      "orientation": [
+        [
+          0.5947530363445884,
+          -0.796533869582131,
+          -0.10863986546110994
+        ],
+        [
+          -0.7995184917400878,
+          -0.5719754252689729,
+          -0.1833420144266775
+        ],
+        [
+          0.083898790959982,
+          0.19590280114611253,
+          -0.9770276789214105
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        -0.03738132051934174,
+        0.02712278865766527,
+        0.030013938265034262
+      ],
+      "orientation": [
+        [
+          0.5807122307756394,
+          -0.8058664247997857,
+          -0.11555349587091682
+        ],
+        [
+          -0.8138915913762952,
+          -0.5714000075107442,
+          -0.10527349573221795
+        ],
+        [
+          0.01880910722336333,
+          0.15518162519168083,
+          -0.9877068799438052
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        -0.037398900126472845,
+        0.027108980671760888,
+        0.4298357340909932
+      ],
+      "orientation": [
+        [
+          0.5807122307756394,
+          -0.8058664247997857,
+          -0.11555349587091682
+        ],
+        [
+          -0.8138915913762952,
+          -0.5714000075107442,
+          -0.10527349573221795
+        ],
+        [
+          0.01880910722336333,
+          0.15518162519168083,
+          -0.9877068799438052
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "white_cabinet_1_bottom_region",
+      "offset": [
+        -0.37623059134564707,
+        -0.06562324785393503,
+        -0.021520197907579447
+      ],
+      "orientation": [
+        [
+          0.015968526752290952,
+          -0.1895210659123952,
+          0.9817467961387953
+        ],
+        [
+          0.604370753148006,
+          -0.7803736307162141,
+          -0.16047737916013058
+        ],
+        [
+          0.7965431557000988,
+          0.5959016379053022,
+          0.102079572144013
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "white_cabinet_1_bottom_region",
+      "offset": [
+        -0.06891,
+        -0.04562,
+        -0.02152
+      ],
+      "orientation": [
+        [
+          0.033159750363547326,
+          -0.246285834858109,
+          0.9686298149985205
+        ],
+        [
+          0.6780687499766029,
+          -0.706455693864692,
+          -0.2028376762618826
+        ],
+        [
+          0.7342500944916457,
+          0.6635236545552825,
+          0.1435728337277225
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.9999999999999959,
+          1.2515174091846982e-16,
+          -3.9291896369817356e-17
+        ],
+        [
+          1.2515174091846982e-16,
+          0.9999999999999967,
+          1.0602890668191475e-16
+        ],
+        [
+          -3.9291896369817356e-17,
+          1.0602890668191475e-16,
+          0.9999999999999962
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    }
+  ],
+  "source": "pi0.5 keyframes; edited; replay unverified",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_90/task_024/20261008_014954_487646/model.json",
+  "execution_skill": {}
+}

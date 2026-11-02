@@ -1,0 +1,71 @@
+{
+  "suite": "libero_90",
+  "task_id": 59,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Stopped at 1: failed: target missed by 4.8 cm",
+      "success": false,
+      "seconds": 4.24,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 4.8 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.035,
+      "result": "Stopped at 1: failed: target missed by 4.8 cm",
+      "success": false,
+      "seconds": 4.91,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 4.8 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Stopped at 1: failed: target missed by 4.8 cm",
+      "success": false,
+      "seconds": 4.48,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 4.8 cm"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "pick up the tomato sauce and put it in the tray",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_059.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required",
+  "seconds": 49.9,
+  "checked_at": "2026-09-21T01:43:54.005082+00:00"
+}

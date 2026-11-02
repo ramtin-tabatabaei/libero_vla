@@ -1,0 +1,80 @@
+{
+  "suite": "libero_spatial",
+  "task_id": 1,
+  "replay_success": false,
+  "attempts": [
+    {
+      "candidate": "goal_template",
+      "waypoints": 6,
+      "result": "Finished 6 waypoints \u2022 task success: False",
+      "success": false,
+      "seconds": 22.09,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (2 configs, 0.0cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (2 configs, 1.1cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.6cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok (1.1cm)"
+        }
+      ]
+    }
+  ],
+  "mode": "template",
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "pick up the black bowl next to the ramekin and place it on the plate",
+  "goals": [
+    [
+      "on",
+      "akita_black_bowl_1",
+      "plate_1"
+    ]
+  ],
+  "candidate": "goal_template",
+  "waypoints": 6,
+  "source": "task goal template; review before running",
+  "seconds": 25.86,
+  "checked_at": "2026-09-20T11:26:41.639445+00:00"
+}

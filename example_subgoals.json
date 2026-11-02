@@ -1,0 +1,15 @@
+[
+  {"name": "above_soup",  "at": "alphabet_soup_1", "offset": [0, 0, 0.15], "gripper": "open"},
+  {"name": "descend",     "at": "alphabet_soup_1", "offset": [0, 0, 0.02],
+                          "kind": "line", "ignore": ["alphabet_soup_1"]},
+  {"name": "grasp",       "gripper": "close", "grasp": "alphabet_soup_1"},
+  {"name": "lift",        "offset": [0, 0, 0.20], "kind": "line"},
+  {"name": "detour",      "pos": [0.10, 0.0, 0.28]},
+  {"name": "over_basket", "at": "basket_1_contain_region", "offset": [0, 0, 0.20],
+                          "carry": true, "seat": true, "ignore": ["basket_1"]},
+  {"name": "lower",       "at": "basket_1_contain_region", "offset": [0, 0, 0.06],
+                          "carry": true, "seat": true, "kind": "line",
+                          "ignore": ["basket_1", "alphabet_soup_1"]},
+  {"name": "release",     "gripper": "open"},
+  {"name": "retreat",     "offset": [0, 0, 0.15], "kind": "line"}
+]

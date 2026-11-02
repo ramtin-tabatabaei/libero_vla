@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "suite": "libero_spatial",
+  "task_id": 7,
+  "language": "pick up the black bowl on the stove and place it on the plate",
+  "waypoints": [
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.05227704132726759,
+        0.023980916630447813,
+        0.026026753355844215
+      ],
+      "orientation": [
+        [
+          0.9978766287956317,
+          -0.0648125598443472,
+          -0.006447153626552485
+        ],
+        [
+          -0.06499339522075061,
+          -0.9973205464830418,
+          -0.033579549437751495
+        ],
+        [
+          -0.004253502220612979,
+          0.0339272699931192,
+          -0.9994152530703491
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Lift",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.05,
+        0.02,
+        0.13338
+      ],
+      "orientation": [
+        [
+          0.9730764017135802,
+          -0.1505939477337936,
+          -0.1744814584249466
+        ],
+        [
+          -0.1648025054982349,
+          -0.9838431970257522,
+          -0.06994782232239487
+        ],
+        [
+          -0.16112867717960436,
+          0.09681955676459442,
+          -0.9821728579116059
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Transfer",
+      "reference": "plate_1",
+      "offset": [
+        0.007315540040720016,
+        -0.008539870035241998,
+        0.1350831136128762
+      ],
+      "orientation": [
+        [
+          0.9710212977155207,
+          -0.19777059130103983,
+          -0.1341805969553684
+        ],
+        [
+          -0.20918144562935034,
+          -0.974845265375029,
+          -0.0769404404737873
+        ],
+        [
+          -0.11558876323967275,
+          0.10277889760219408,
+          -0.9879654528476165
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish",
+      "reference": "plate_1",
+      "offset": [
+        0.029236058282587785,
+        0.0017103043980287536,
+        0.027388160522414592
+      ],
+      "orientation": [
+        [
+          0.9669608984339009,
+          -0.2435458734150706,
+          -0.07531287036350728
+        ],
+        [
+          -0.24322348705768043,
+          -0.9698754293667026,
+          0.013564175398953202
+        ],
+        [
+          -0.07634760142533882,
+          0.005201831719848484,
+          -0.9970676931399156
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 demonstration; 110 measured steps \u2192 4 waypoints; rollout success=True; selected demonstration 1/1; 1/1 rollouts succeeded; edited; replay unverified"
+}

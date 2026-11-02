@@ -1,0 +1,239 @@
+{
+  "suite": "libero_goal",
+  "task_id": 4,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Finished 9 waypoints \u2022 task success: False",
+      "success": false,
+      "seconds": 13.05,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.2cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "ok (0.1cm)"
+        }
+      ]
+    },
+    {
+      "waypoints": 6,
+      "tolerance": 0.035,
+      "result": "Finished 6 waypoints \u2022 task success: False",
+      "success": false,
+      "seconds": 9.52,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok (0.3cm)"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok (0.1cm)"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Finished 9 waypoints \u2022 task success: False",
+      "success": false,
+      "seconds": 14.87,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.2cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "ok (0.1cm)"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "put the bowl on top of the cabinet",
+  "rollout_success": true,
+  "demonstration": "task_waypoints/_demonstrations/libero_goal/task_004.json",
+  "recorded_steps": 86,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 86 measured steps \u2192 9 waypoints; rollout success=True; replay FAILED \u2014 review required",
+  "seconds": 46.26,
+  "checked_at": "2026-09-21T01:21:48.758657+00:00"
+}

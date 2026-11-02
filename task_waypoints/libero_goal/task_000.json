@@ -1,0 +1,189 @@
+{
+  "version": 1,
+  "suite": "libero_goal",
+  "task_id": 0,
+  "language": "open the middle drawer of the cabinet",
+  "waypoints": [
+    {
+      "name": "Approach",
+      "reference": "plate_1",
+      "offset": [
+        -0.00677837348822609,
+        0.1519931262828641,
+        0.2513692706927865
+      ],
+      "orientation": [
+        [
+          0.8938774339900354,
+          0.3859235767709381,
+          -0.22813620031838786
+        ],
+        [
+          0.405619033791376,
+          -0.9129374030189992,
+          0.044927692964047895
+        ],
+        [
+          -0.19093541428853975,
+          -0.13269623604777586,
+          -0.9725920915312916
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Approach",
+      "reference": "plate_1",
+      "offset": [
+        -0.024539236983344807,
+        0.08265552492752641,
+        0.16054410855864298
+      ],
+      "orientation": [
+        [
+          0.16902600853995117,
+          0.6953625911991383,
+          -0.6984991590530881
+        ],
+        [
+          0.9833499892492196,
+          -0.16695884061726599,
+          0.07174638794599408
+        ],
+        [
+          -0.06673085553633382,
+          -0.6989961461271137,
+          -0.7120051829999767
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Approach",
+      "reference": "plate_1",
+      "offset": [
+        -0.08731775226480515,
+        0.015292628959201316,
+        0.15491037961330642
+      ],
+      "orientation": [
+        [
+          -0.03012722748143634,
+          0.6059500723548591,
+          -0.7949319844976791
+        ],
+        [
+          0.9981902817098177,
+          0.059647631423634204,
+          0.007636855741755761
+        ],
+        [
+          0.052043363307456306,
+          -0.7932633042557097,
+          -0.6066504911866112
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Approach",
+      "reference": "plate_1",
+      "offset": [
+        -0.13678,
+        0.01675,
+        0.11507999999999999
+      ],
+      "orientation": [
+        [
+          -0.00714166649130177,
+          0.5895209006198655,
+          -0.8077215512366038
+        ],
+        [
+          0.9986268675894285,
+          -0.037716470151880885,
+          -0.03635721672246667
+        ],
+        [
+          -0.05189774492450658,
+          -0.8068720937122691,
+          -0.5884420519134623
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish",
+      "reference": "plate_1",
+      "offset": [
+        0.011715837966293295,
+        0.017318995453554028,
+        0.12651347948836322
+      ],
+      "orientation": [
+        [
+          -0.0120043868881688,
+          0.5793464068047445,
+          -0.8149930279565994
+        ],
+        [
+          0.9982133145277664,
+          -0.040767319759330914,
+          -0.043682998284541065
+        ],
+        [
+          -0.0585326694669388,
+          -0.8140612793654222,
+          -0.5778219103175322
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 demonstration; 111 measured steps \u2192 5 waypoints; rollout success=True; selected demonstration 1/2; 1/2 rollouts succeeded; edited; replay unverified"
+}

@@ -1,0 +1,101 @@
+{
+  "suite": "libero_90",
+  "task_id": 47,
+  "replay_success": true,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Finished 9 waypoints \u2022 task success: True",
+      "success": true,
+      "seconds": 18.27,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "ok (0.1cm)"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_passed",
+  "language": "pick up the cream cheese box and put it in the basket",
+  "rollout_success": true,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_047.json",
+  "recorded_steps": 258,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 258 measured steps \u2192 9 waypoints; rollout success=True; replay passed (seed 0)",
+  "seconds": 36.75,
+  "checked_at": "2026-09-21T01:40:49.146196+00:00"
+}

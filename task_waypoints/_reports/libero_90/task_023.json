@@ -1,0 +1,231 @@
+{
+  "suite": "libero_90",
+  "task_id": 23,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Finished 9 waypoints \u2022 task success: False",
+      "success": false,
+      "seconds": 15.44,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "ok (0.7cm)"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.035,
+      "result": "Stopped at 5: failed: target missed by 3.4 cm",
+      "success": false,
+      "seconds": 11.02,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "failed: target missed by 3.4 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Finished 9 waypoints \u2022 task success: False",
+      "success": false,
+      "seconds": 19.14,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "ok (0.7cm)"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "close the bottom drawer of the cabinet and open the top drawer",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_023.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required",
+  "seconds": 73.13,
+  "checked_at": "2026-09-21T01:33:46.827884+00:00"
+}

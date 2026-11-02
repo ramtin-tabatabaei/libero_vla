@@ -1,0 +1,71 @@
+{
+  "suite": "libero_90",
+  "task_id": 39,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Stopped at 1: failed: target missed by 4.6 cm",
+      "success": false,
+      "seconds": 5.58,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 4.6 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.035,
+      "result": "Stopped at 1: failed: target missed by 4.9 cm",
+      "success": false,
+      "seconds": 5.85,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 4.9 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Stopped at 1: failed: target missed by 4.9 cm",
+      "success": false,
+      "seconds": 6.19,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "failed: target missed by 4.9 cm"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "turn off the stove",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_039.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required",
+  "seconds": 51.86,
+  "checked_at": "2026-09-21T01:38:22.949436+00:00"
+}

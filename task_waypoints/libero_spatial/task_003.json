@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "suite": "libero_spatial",
+  "task_id": 3,
+  "language": "pick up the black bowl on the cookie box and place it on the plate",
+  "waypoints": [
+    {
+      "name": "Path turn",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.06148084411828802,
+        0.06221162741922687,
+        0.27734945944255657
+      ],
+      "orientation": [
+        [
+          0.9909791329279086,
+          -0.06764850491650644,
+          -0.11568940264348827
+        ],
+        [
+          -0.07428692474638601,
+          -0.9957704266105789,
+          -0.05406209669913046
+        ],
+        [
+          -0.11154286581028182,
+          0.06216861965930035,
+          -0.9918131133517454
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Approach",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.04779308482516579,
+        -0.06043920762222076,
+        0.13704166409657625
+      ],
+      "orientation": [
+        [
+          0.994366013908625,
+          -0.08463076171195297,
+          -0.06382683256688466
+        ],
+        [
+          -0.08929931071087628,
+          -0.9932347452720861,
+          -0.0742318926799737
+        ],
+        [
+          -0.0571127261652678,
+          0.07951336338215982,
+          -0.9951963432175696
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.038478974793718194,
+        0.017247464256146004,
+        0.02889995963008118
+      ],
+      "orientation": [
+        [
+          0.9920838946804763,
+          -0.08373489433157452,
+          -0.09358425822162925
+        ],
+        [
+          -0.09345912144591662,
+          -0.9900840910601253,
+          -0.10487557031167079
+        ],
+        [
+          -0.08387454044088669,
+          0.11279166680620004,
+          -0.9900722707787066
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Lift",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.09260557800413378,
+        0.0072351135637469845,
+        0.1288723667769888
+      ],
+      "orientation": [
+        [
+          0.9786119703651881,
+          -0.07051073200687581,
+          -0.19325332630983233
+        ],
+        [
+          -0.0973345797827952,
+          -0.9863223478425371,
+          -0.13301956895467562
+        ],
+        [
+          -0.18123076735606095,
+          0.14898477377985836,
+          -0.9720899887074723
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Transfer",
+      "reference": "plate_1",
+      "offset": [
+        0.000930424746757971,
+        -0.0055995415092131,
+        0.1465269959894434
+      ],
+      "orientation": [
+        [
+          0.9741073677272367,
+          -0.05145714815391728,
+          -0.22015221562222873
+        ],
+        [
+          -0.08916906036418527,
+          -0.9822615485224858,
+          -0.16495796121428172
+        ],
+        [
+          -0.20775878997837555,
+          0.18031753158822353,
+          -0.9614165970008253
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Going down",
+      "reference": "plate_1",
+      "offset": [
+        0.03375800626900258,
+        -0.007607618951013683,
+        0.06861252918621567
+      ],
+      "orientation": [
+        [
+          0.9785512947084424,
+          -0.04770303403757437,
+          -0.20040405227449512
+        ],
+        [
+          -0.07755267818761641,
+          -0.9865564345916809,
+          -0.14384708363980026
+        ],
+        [
+          -0.19084796496257583,
+          0.1563036209092985,
+          -0.9690955744199243
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish & open gripper",
+      "reference": "plate_1",
+      "offset": [
+        0.035903606256917395,
+        -0.0011302637723990272,
+        0.029283809942956714
+      ],
+      "orientation": [
+        [
+          0.982346509115184,
+          -0.05003431864331405,
+          -0.18025510530108899
+        ],
+        [
+          -0.07063944203917347,
+          -0.9914439589230166,
+          -0.10976768897742832
+        ],
+        [
+          -0.17322068368876045,
+          0.1205630261437996,
+          -0.9774759083831394
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 phase plan; 91 measured steps \u2192 7 waypoints; rollout success=True; selected demonstration 1/1; 1/1 rollouts succeeded; replay unverified"
+}

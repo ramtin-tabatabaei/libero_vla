@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "suite": "libero_10",
+  "task_id": 4,
+  "language": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+  "waypoints": [
+    {
+      "name": "Reach & close gripper",
+      "reference": "porcelain_mug_1",
+      "offset": [
+        -0.005997953021141344,
+        -0.047658801159258746,
+        0.08412193187623303
+      ],
+      "orientation": [
+        [
+          -0.9437585706666335,
+          -0.31857149864841927,
+          0.08849836462992655
+        ],
+        [
+          -0.3240728882296617,
+          0.9443386807756488,
+          -0.05657931693994684
+        ],
+        [
+          -0.06554787111536446,
+          -0.08207713591376078,
+          -0.9944681092686863
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "plate_1",
+      "offset": [
+        0.029566984451269412,
+        0.012630024797166866,
+        0.09000638124630293
+      ],
+      "orientation": [
+        [
+          0.9737058345449076,
+          0.22377327501180697,
+          -0.04269038725162761
+        ],
+        [
+          0.22468083154532925,
+          -0.974270955034434,
+          0.017737815885556667
+        ],
+        [
+          -0.03762275520616562,
+          -0.02686312652653771,
+          -0.9989308788519429
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "plate_1",
+      "offset": [
+        0.02970422428867228,
+        0.012337035691073493,
+        0.08989982002764978
+      ],
+      "orientation": [
+        [
+          0.9738152376087568,
+          0.22342919873281253,
+          -0.04199138190882878
+        ],
+        [
+          0.22433983560299156,
+          -0.9743384893471726,
+          0.018334294049443083
+        ],
+        [
+          -0.0368174029858496,
+          -0.027274554630316326,
+          -0.9989497372276018
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "porcelain_mug_1",
+      "offset": [
+        0.14007044619317788,
+        0.08832898977067058,
+        0.09388128212882003
+      ],
+      "orientation": [
+        [
+          -0.9739708257949344,
+          -0.22294829224732823,
+          0.04092541367330325
+        ],
+        [
+          -0.22396818019506562,
+          0.9743425045915479,
+          -0.022247202214610844
+        ],
+        [
+          -0.034915394318863036,
+          -0.030834116336731436,
+          -0.9989144970963676
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "plate_1",
+      "offset": [
+        0.03109001118481466,
+        0.010571020201000309,
+        0.08877671784067923
+      ],
+      "orientation": [
+        [
+          0.9740613418168589,
+          0.2226163402315185,
+          -0.04057668591523469
+        ],
+        [
+          0.2236566547391466,
+          -0.9743929361029142,
+          0.023153981593546914
+        ],
+        [
+          -0.03438318148212798,
+          -0.031628644211615625,
+          -0.9989081167437276
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Place & open gripper",
+      "reference": "porcelain_mug_1",
+      "offset": [
+        0.13937949905922267,
+        0.08899264328161657,
+        0.09345500987296766
+      ],
+      "orientation": [
+        [
+          -0.9741456065255392,
+          -0.2222664488625993,
+          0.04047175554624804
+        ],
+        [
+          -0.22333036537109383,
+          0.9744486881168216,
+          -0.02394372841925722
+        ],
+        [
+          -0.034115761609547365,
+          -0.032363249796813334,
+          -0.9988937555477989
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Raise",
+      "reference": "white_yellow_mug_1",
+      "offset": [
+        0.04943877201734269,
+        0.0499492215987725,
+        0.19039008471336968
+      ],
+      "orientation": [
+        [
+          -0.9827224449889891,
+          -0.18168451497329888,
+          0.035317603737774386
+        ],
+        [
+          -0.18304876112220125,
+          0.9822801081629647,
+          -0.040236055459993994
+        ],
+        [
+          -0.027381511398910006,
+          -0.04600571840836233,
+          -0.9985658349389087
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "white_yellow_mug_1",
+      "offset": [
+        -0.06300731827780556,
+        -0.02236074505996421,
+        0.07433307430938813
+      ],
+      "orientation": [
+        [
+          -0.9957606261393289,
+          -0.0856363401272111,
+          0.03357369029800617
+        ],
+        [
+          -0.08667229700908205,
+          0.9957631540142245,
+          -0.030718952436752368
+        ],
+        [
+          -0.03080078508381407,
+          -0.033498632169964564,
+          -0.9989640400339544
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish",
+      "reference": "plate_2",
+      "offset": [
+        0.04119077133979269,
+        0.0038698053274609143,
+        0.08673778009473175
+      ],
+      "orientation": [
+        [
+          0.9990656124393325,
+          -0.016890290070265386,
+          -0.03978215859608395
+        ],
+        [
+          -0.01917359552719774,
+          -0.9981480282049271,
+          -0.05773116164755046
+        ],
+        [
+          -0.03873338709409638,
+          0.058439985386364246,
+          -0.9975392186938119
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 demonstration; 245 measured steps \u2192 9 waypoints; rollout success=True; replay FAILED \u2014 review required"
+}

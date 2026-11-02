@@ -1,0 +1,520 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_10",
+  "task_id": 8,
+  "language": "put both moka pots on the stove",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "moka_pot_2",
+      "offset": [
+        0.0034371363107510537,
+        0.04776175994211904,
+        0.15745786534798226
+      ],
+      "orientation": [
+        [
+          -0.9982071355140587,
+          -0.054814762529175866,
+          0.024038644256518877
+        ],
+        [
+          -0.059462593577592,
+          0.954045992355341,
+          -0.2937012843617515
+        ],
+        [
+          -0.0068348060577842,
+          -0.29460411789312513,
+          -0.9555949451240153
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "moka_pot_2",
+      "offset": [
+        0.0034371363107510403,
+        0.04776175994211887,
+        0.042088918732277145
+      ],
+      "orientation": [
+        [
+          -0.9989798230568404,
+          -0.03826226296856107,
+          0.023985669843755532
+        ],
+        [
+          -0.04323592754560764,
+          0.9637175766063907,
+          -0.26339910233176866
+        ],
+        [
+          -0.01303716589600397,
+          -0.26416743132421766,
+          -0.9643887185844562
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "moka_pot_2",
+      "offset": [
+        0.003437184064308946,
+        0.047760696321283734,
+        0.15745786533815645
+      ],
+      "orientation": [
+        [
+          -0.9989798230568404,
+          -0.03826226296856107,
+          0.023985669843755532
+        ],
+        [
+          -0.04323592754560764,
+          0.9637175766063907,
+          -0.26339910233176866
+        ],
+        [
+          -0.01303716589600397,
+          -0.26416743132421766,
+          -0.9643887185844562
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "flat_stove_1_cook_region",
+      "offset": [
+        -0.04633354061068304,
+        -0.07686739034329201,
+        0.21856328030395633
+      ],
+      "orientation": [
+        [
+          0.9597980248426086,
+          0.14509140721758912,
+          -0.24028365541552008
+        ],
+        [
+          0.2063845760612401,
+          -0.9449889969862095,
+          0.2537739197376616
+        ],
+        [
+          -0.19024499539343173,
+          -0.29316254727815194,
+          -0.9369432013740937
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "flat_stove_1_cook_region",
+      "offset": [
+        -0.04633354061068304,
+        -0.07686739034329201,
+        0.13344730432305751
+      ],
+      "orientation": [
+        [
+          0.9757998422699438,
+          0.1604014100543183,
+          -0.14861377957153424
+        ],
+        [
+          0.19865151538382825,
+          -0.9343319840323474,
+          0.29590761911428276
+        ],
+        [
+          -0.09139060816987052,
+          -0.3182689605769956,
+          -0.9435849858235227
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.9999999999999973,
+          -8.26200788357399e-17,
+          9.469783727562727e-18
+        ],
+        [
+          -8.26200788357399e-17,
+          0.9999999999999974,
+          -2.2885489851602444e-17
+        ],
+        [
+          9.469783727562727e-18,
+          -2.2885489851602444e-17,
+          0.9999999999999976
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    },
+    {
+      "name": "Move",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.13274319748956032
+      ],
+      "orientation": [
+        [
+          0.9999999999999973,
+          -8.26200788357399e-17,
+          9.469783727562727e-18
+        ],
+        [
+          -8.26200788357399e-17,
+          0.9999999999999974,
+          -2.2885489851602444e-17
+        ],
+        [
+          9.469783727562727e-18,
+          -2.2885489851602444e-17,
+          0.9999999999999976
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Move",
+      "reference": "moka_pot_1",
+      "offset": [
+        0.003990749356551521,
+        0.051609465080563105,
+        0.2050851221026651
+      ],
+      "orientation": [
+        [
+          -0.9892944127152261,
+          -0.012941337529104268,
+          -0.14535847671670796
+        ],
+        [
+          0.05088798319425992,
+          0.9029471591749504,
+          -0.4267280643504897
+        ],
+        [
+          0.13677345552725004,
+          -0.4295566895310243,
+          -0.8926220209821681
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "moka_pot_1",
+      "offset": [
+        0.003990749356551508,
+        0.051609465080562925,
+        0.04327726657391686
+      ],
+      "orientation": [
+        [
+          -0.9856559675518073,
+          -0.006830224423422637,
+          -0.16862876879063132
+        ],
+        [
+          0.06656065463864547,
+          0.9024560104610347,
+          -0.4256087739190008
+        ],
+        [
+          0.15508704937419335,
+          -0.43072786909728267,
+          -0.8890565279549596
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "moka_pot_1",
+      "offset": [
+        0.003990820468237469,
+        0.05160788120128507,
+        0.21507766555062
+      ],
+      "orientation": [
+        [
+          -0.9856559675518073,
+          -0.006830224423422637,
+          -0.16862876879063132
+        ],
+        [
+          0.06656065463864547,
+          0.9024560104610347,
+          -0.4256087739190008
+        ],
+        [
+          0.15508704937419335,
+          -0.43072786909728267,
+          -0.8890565279549596
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "flat_stove_1_cook_region",
+      "offset": [
+        0.07559504201143243,
+        -0.014073999961242672,
+        0.2761830452747791
+      ],
+      "orientation": [
+        [
+          0.9851990056266801,
+          0.10483605231400708,
+          0.13561829318869337
+        ],
+        [
+          0.010358840136380783,
+          -0.8261383438027637,
+          0.5633721073410135
+        ],
+        [
+          0.17110117984171977,
+          -0.5536287917314636,
+          -0.8149966547310056
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "flat_stove_1_cook_region",
+      "offset": [
+        0.07559504201143243,
+        -0.014073999961242672,
+        0.13999185172963058
+      ],
+      "orientation": [
+        [
+          0.9205618744543709,
+          0.3721207955714639,
+          -0.11870951437991042
+        ],
+        [
+          0.38915794866582326,
+          -0.8477247607593418,
+          0.3604425349285561
+        ],
+        [
+          0.03349516817784229,
+          -0.37800640669011903,
+          -0.9251968602464884
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.9999999999999983,
+          -5.089463936249962e-17,
+          2.9194220721853116e-17
+        ],
+        [
+          -5.089463936249962e-17,
+          0.9999999999999981,
+          -3.938535939286438e-18
+        ],
+        [
+          2.9194220721853116e-17,
+          -3.938535939286438e-18,
+          0.9999999999999978
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    }
+  ],
+  "source": "pi0.5 keyframes; edited; replay unverified",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_10/task_008/20260927_160712_051537/model.json",
+  "execution_skill": {}
+}

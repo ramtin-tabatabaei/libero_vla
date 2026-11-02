@@ -1,0 +1,364 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_90",
+  "task_id": 4,
+  "language": "put the butter at the front in the top drawer of the cabinet and close it",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "butter_1",
+      "offset": [
+        -0.002425434112673368,
+        0.0007532750202497561,
+        0.3027605503699051
+      ],
+      "orientation": [
+        [
+          0.004253098965129046,
+          -0.9865722684496764,
+          -0.16326993071367657
+        ],
+        [
+          -0.9995416490528607,
+          -0.009087980825187907,
+          0.028877333900575668
+        ],
+        [
+          -0.029973370812725365,
+          0.16307227762736665,
+          -0.9861587241978557
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "butter_1",
+      "offset": [
+        -0.0024254341126733678,
+        0.0007532750202497442,
+        0.004254873375525325
+      ],
+      "orientation": [
+        [
+          0.01669665449573196,
+          -0.9891861544805195,
+          -0.14571195391144445
+        ],
+        [
+          -0.9985306176905185,
+          -0.02401057613689231,
+          0.04858083745845556
+        ],
+        [
+          -0.05155411975041893,
+          0.14468670988592994,
+          -0.9881335581383437
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "butter_1",
+      "offset": [
+        -0.002425434112673368,
+        0.0007532750202497561,
+        0.3027605503699051
+      ],
+      "orientation": [
+        [
+          0.01669665449573196,
+          -0.9891861544805195,
+          -0.14571195391144445
+        ],
+        [
+          -0.9985306176905185,
+          -0.02401057613689231,
+          0.04858083745845556
+        ],
+        [
+          -0.05155411975041893,
+          0.14468670988592994,
+          -0.9881335581383437
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "wooden_cabinet_1_top_region",
+      "offset": [
+        -0.1218023212786015,
+        0.002898811233478491,
+        0.024802912397616082
+      ],
+      "orientation": [
+        [
+          0.18193857309876973,
+          -0.08712509280970172,
+          0.9794424811195823
+        ],
+        [
+          -0.9826760241883035,
+          -0.05186943585201773,
+          0.17792524584740926
+        ],
+        [
+          0.035301375387528734,
+          -0.9948461086154445,
+          -0.095052790955629
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "wooden_cabinet_1_top_region",
+      "offset": [
+        -0.0418023212786014,
+        0.002898811233478491,
+        0.02480291239761607
+      ],
+      "orientation": [
+        [
+          0.17290227487356086,
+          -0.12565242658681944,
+          0.9768911254773444
+        ],
+        [
+          -0.9840910452393317,
+          -0.06318561418539867,
+          0.16604936868225123
+        ],
+        [
+          0.040860959647417074,
+          -0.9900601223425064,
+          -0.13457836424862005
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          1.0000000000000002,
+          -3.6502184306196614e-17,
+          3.3496908612613985e-17
+        ],
+        [
+          -3.6502184306196614e-17,
+          1.0000000000000004,
+          -3.363848192691307e-17
+        ],
+        [
+          3.3496908612613985e-17,
+          -3.363848192691307e-17,
+          1.0000000000000004
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    },
+    {
+      "name": "Move",
+      "reference": "wooden_cabinet_1_top_level",
+      "offset": [
+        -0.021840000000000002,
+        -0.19724,
+        0.34088
+      ],
+      "orientation": [
+        [
+          0.01370806071663231,
+          -0.9752802180953776,
+          -0.22054610688747023
+        ],
+        [
+          -0.9076615781935841,
+          -0.1046688165685719,
+          0.4064417526648371
+        ],
+        [
+          -0.4194789011887476,
+          0.1946096992186283,
+          -0.8866591884300944
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Move",
+      "reference": "wooden_cabinet_1_top_level",
+      "offset": [
+        0.0030434470549343356,
+        -0.19856651104177794,
+        0.11159867391563827
+      ],
+      "orientation": [
+        [
+          -0.09659938637554412,
+          -0.9544505823655909,
+          -0.2822988564869676
+        ],
+        [
+          -0.898884001995073,
+          -0.03813564623827956,
+          0.43652402390167133
+        ],
+        [
+          -0.42740625815397987,
+          0.2959218787247236,
+          -0.8542564791576592
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Push",
+      "reference": "wooden_cabinet_1_top_level",
+      "offset": [
+        0.04531792837882102,
+        -0.012824426026592473,
+        0.10670747981048301
+      ],
+      "orientation": [
+        [
+          -0.1789243883972618,
+          -0.9584100426935422,
+          -0.2223426484074197
+        ],
+        [
+          -0.9649972820279029,
+          0.12691027338811653,
+          0.22950823119729383
+        ],
+        [
+          -0.19174542736509453,
+          0.2556246712911592,
+          -0.9475704293148143
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "push"
+    }
+  ],
+  "source": "pi0.5 keyframes; edited; replay unverified",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_90/task_004/20261008_012834_066598/model.json",
+  "execution_skill": {}
+}

@@ -1,0 +1,520 @@
+{
+  "version": 2,
+  "kind": "gmm_editor_chain",
+  "suite": "libero_10",
+  "task_id": 0,
+  "language": "put both the alphabet soup and the tomato sauce in the basket",
+  "waypoints": [
+    {
+      "name": "Move",
+      "reference": "alphabet_soup_1",
+      "offset": [
+        0.0,
+        0.24518304547219633,
+        0.0
+      ],
+      "orientation": [
+        [
+          -0.028999198368937974,
+          -0.9991929622865243,
+          0.02779335551956346
+        ],
+        [
+          0.040670327632693064,
+          -0.02896147157441994,
+          -0.9987528010546406
+        ],
+        [
+          0.9987517063535887,
+          -0.027832665724323406,
+          0.041477364603717384
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "alphabet_soup_1",
+      "offset": [
+        0.0,
+        0.006408654178284914,
+        0.0
+      ],
+      "orientation": [
+        [
+          -0.018121203190240975,
+          -0.9997281993304953,
+          0.01466797390030133
+        ],
+        [
+          0.02657631604801768,
+          -0.0151468214255775,
+          -0.9995320271136959
+        ],
+        [
+          0.9994825268208796,
+          -0.017722902248322226,
+          0.026843571216262387
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "alphabet_soup_1",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "alphabet_soup_1",
+      "offset": [
+        0.0,
+        0.2451722748601406,
+        0.0
+      ],
+      "orientation": [
+        [
+          -0.018121203190240975,
+          -0.9997281993304953,
+          0.01466797390030133
+        ],
+        [
+          0.02657631604801768,
+          -0.0151468214255775,
+          -0.9995320271136959
+        ],
+        [
+          0.9994825268208796,
+          -0.017722902248322226,
+          0.026843571216262387
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "basket_1_contain_region",
+      "offset": [
+        0.010032632596269065,
+        -0.0068239041473783365,
+        0.21639964442299686
+      ],
+      "orientation": [
+        [
+          -0.9974926292914292,
+          0.06550780707477673,
+          -0.026780248720264316
+        ],
+        [
+          0.06566472897761845,
+          0.9978291057644993,
+          -0.005021857973785549
+        ],
+        [
+          0.026393140729388635,
+          -0.006767784088368869,
+          -0.9996287306900324
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "basket_1_contain_region",
+      "offset": [
+        0.010032632596269072,
+        -0.006823904147378345,
+        0.11834789536902367
+      ],
+      "orientation": [
+        [
+          -0.9686499848175616,
+          0.2470039556045434,
+          -0.02657541775101848
+        ],
+        [
+          0.24032564721572075,
+          0.958775144941385,
+          0.15163708231486425
+        ],
+        [
+          0.06293480915421396,
+          0.14049650301103137,
+          -0.988078915086436
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.9999999999999958,
+          -6.586677035909104e-17,
+          6.455702330765488e-17
+        ],
+        [
+          -6.586677035909104e-17,
+          0.9999999999999952,
+          -9.850701665661864e-17
+        ],
+        [
+          6.455702330765488e-17,
+          -9.850701665661864e-17,
+          0.9999999999999956
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "grip",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    },
+    {
+      "name": "Move",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.08901083730892445
+      ],
+      "orientation": [
+        [
+          0.9999999999999958,
+          -6.586677035909104e-17,
+          6.455702330765488e-17
+        ],
+        [
+          -6.586677035909104e-17,
+          0.9999999999999952,
+          -9.850701665661864e-17
+        ],
+        [
+          6.455702330765488e-17,
+          -9.850701665661864e-17,
+          0.9999999999999956
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Move",
+      "reference": "tomato_sauce_1",
+      "offset": [
+        0.0,
+        0.23618614293254192,
+        0.0
+      ],
+      "orientation": [
+        [
+          -0.32831975532642366,
+          -0.9444616280364697,
+          0.014084439253565683
+        ],
+        [
+          0.006003890409997182,
+          -0.01699735172429304,
+          -0.9998375084653979
+        ],
+        [
+          0.9445475591849948,
+          -0.3281818447157777,
+          0.011251010470495655
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "move"
+    },
+    {
+      "name": "Grasp",
+      "reference": "tomato_sauce_1",
+      "offset": [
+        0.0,
+        0.006898862603458195,
+        0.0
+      ],
+      "orientation": [
+        [
+          -0.3373084758267471,
+          -0.9412308359363294,
+          0.017535838104321334
+        ],
+        [
+          0.003935976028394041,
+          -0.020037400974589902,
+          -0.9997914835878896
+        ],
+        [
+          0.9413859464789808,
+          -0.33716912083517914,
+          0.010463447189699097
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "tomato_sauce_1",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "grasp"
+    },
+    {
+      "name": "Transport",
+      "reference": "tomato_sauce_1",
+      "offset": [
+        0.0,
+        0.23617589665537148,
+        0.0
+      ],
+      "orientation": [
+        [
+          -0.3373084758267471,
+          -0.9412308359363294,
+          0.017535838104321334
+        ],
+        [
+          0.003935976028394041,
+          -0.020037400974589902,
+          -0.9997914835878896
+        ],
+        [
+          0.9413859464789808,
+          -0.33716912083517914,
+          0.010463447189699097
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Transport",
+      "reference": "basket_1_contain_region",
+      "offset": [
+        -0.010549350186135707,
+        -0.019246507992997403,
+        0.20745842970695552
+      ],
+      "orientation": [
+        [
+          -0.9347484867344463,
+          0.3498169668764785,
+          0.062236293535161795
+        ],
+        [
+          0.3500906231526863,
+          0.936691088692064,
+          -0.006808813804958044
+        ],
+        [
+          -0.06067802014088696,
+          0.015423814385797218,
+          -0.9980382176157212
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "transport"
+    },
+    {
+      "name": "Place",
+      "reference": "basket_1_contain_region",
+      "offset": [
+        -0.010549350186135707,
+        -0.019246507992997434,
+        0.1080751847709777
+      ],
+      "orientation": [
+        [
+          -0.8892211737902036,
+          0.45746634489289645,
+          0.0032011519020712204
+        ],
+        [
+          0.45627903749042403,
+          0.886363687257456,
+          0.07854205152765904
+        ],
+        [
+          0.03309296042935676,
+          0.07130187376005356,
+          -0.9969056619200839
+        ]
+      ],
+      "orientation_relative_to_previous": false,
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "place"
+    },
+    {
+      "name": "Release",
+      "reference": "Previous waypoint",
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orientation": [
+        [
+          0.9999999999999956,
+          1.7417287635124554e-16,
+          -9.232676911988916e-19
+        ],
+        [
+          1.7417287635124554e-16,
+          0.9999999999999956,
+          -1.618979826935413e-17
+        ],
+        [
+          -9.232676911988916e-19,
+          -1.618979826935413e-17,
+          0.9999999999999954
+        ]
+      ],
+      "orientation_relative_to_previous": true,
+      "motion": "grip",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0,
+      "learned": {},
+      "skill_role": "release"
+    }
+  ],
+  "source": "pi0.5 keyframes; centered can grasps; replay passed (seeds 0, 1, 2)",
+  "max_waypoints": 100,
+  "model_path": "/home/ramtin/libero_vla/waypoint_models/gui/libero_10/task_000/20260928_064735_108727/model.json",
+  "execution_skill": {}
+}

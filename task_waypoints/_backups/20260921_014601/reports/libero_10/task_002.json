@@ -1,0 +1,18 @@
+{
+  "suite": "libero_10",
+  "task_id": 2,
+  "replay_success": false,
+  "attempts": [],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "build_failed",
+  "language": "turn on the stove and put the moka pot on it",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_10/task_002.json",
+  "recorded_steps": 800,
+  "reused_demonstration": false,
+  "error": "ValueError: Demonstration has 22 gripper transitions; cannot preserve them in nine waypoints.",
+  "seconds": 51.0,
+  "checked_at": "2026-09-21T01:23:42.838432+00:00"
+}

@@ -1,0 +1,10 @@
+[
+  {"name": "above_object", "pos": [-0.12, -0.24, 0.14],  "gripper": "open"},
+  {"name": "descend",      "pos": [-0.12, -0.24, 0.025], "gripper": "open"},
+  {"name": "grasp",        "pos": [-0.12, -0.24, 0.025], "gripper": "close"},
+  {"name": "lift",         "pos": [-0.12, -0.24, 0.20],  "gripper": "close"},
+  {"name": "detour_right", "pos": [0.10,  0.00,  0.28],  "gripper": "close"},
+  {"name": "above_basket", "pos": [0.00,  0.263, 0.22],  "gripper": "close"},
+  {"name": "release",      "pos": [0.00,  0.263, 0.15],  "gripper": "open"},
+  {"name": "retreat",      "pos": [0.00,  0.263, 0.28],  "gripper": "open"}
+]

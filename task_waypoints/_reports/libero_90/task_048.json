@@ -1,0 +1,18 @@
+{
+  "suite": "libero_90",
+  "task_id": 48,
+  "replay_success": false,
+  "attempts": [],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "build_failed",
+  "language": "pick up the ketchup and put it in the basket",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_048.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "error": "ValueError: Demonstration has 22 gripper transitions; cannot preserve them in nine waypoints.",
+  "seconds": 30.55,
+  "checked_at": "2026-09-21T01:40:47.703716+00:00"
+}

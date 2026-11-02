@@ -1,0 +1,18 @@
+{
+  "suite": "libero_90",
+  "task_id": 41,
+  "replay_success": false,
+  "attempts": [],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "build_failed",
+  "language": "put the frying pan on top of the cabinet",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_041.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "error": "ValueError: Demonstration has 26 gripper transitions; cannot preserve them in nine waypoints.",
+  "seconds": 46.75,
+  "checked_at": "2026-09-21T01:39:03.276440+00:00"
+}

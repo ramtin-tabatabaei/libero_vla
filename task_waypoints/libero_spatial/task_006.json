@@ -1,0 +1,261 @@
+{
+  "version": 1,
+  "suite": "libero_spatial",
+  "task_id": 6,
+  "language": "pick up the black bowl next to the cookie box and place it on the plate",
+  "waypoints": [
+    {
+      "name": "Path turn",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.06912904022535105,
+        0.11846667943042848,
+        0.24066336568235036
+      ],
+      "orientation": [
+        [
+          0.9991842986972984,
+          0.031114911919286607,
+          -0.025741008003596064
+        ],
+        [
+          0.029047798571944543,
+          -0.9965990582399515,
+          -0.07711382828885804
+        ],
+        [
+          -0.028052854309497728,
+          0.0763032068231393,
+          -0.9966899507838902
+        ]
+      ],
+      "motion": "line",
+      "gripper": "open",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Approach",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.05257865242863143,
+        -0.002104154577308857,
+        0.13777410279432695
+      ],
+      "orientation": [
+        [
+          0.9997079806784923,
+          0.023951681810873874,
+          0.003204731838914909
+        ],
+        [
+          0.02416370574349548,
+          -0.989381134915087,
+          -0.14332161455577416
+        ],
+        [
+          -0.00026209248457647184,
+          0.14335720007227673,
+          -0.9896709778986975
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Reach & close gripper",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.04874335736770141,
+        0.018692482916464574,
+        0.034422151691924495
+      ],
+      "orientation": [
+        [
+          0.9989200570426717,
+          -0.04537309121400877,
+          -0.010000111576759932
+        ],
+        [
+          -0.04645497110150243,
+          -0.9791102240831475,
+          -0.19795227898613388
+        ],
+        [
+          -0.0008095046763191406,
+          0.1982030567108662,
+          -0.9801606465333348
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "close",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Lift",
+      "reference": "akita_black_bowl_1",
+      "offset": [
+        0.10469424656061914,
+        0.02587600285971329,
+        0.1646350505169379
+      ],
+      "orientation": [
+        [
+          0.9941463620050386,
+          -0.07197723705511624,
+          -0.08057473709578458
+        ],
+        [
+          -0.08036624165745797,
+          -0.9910877267891173,
+          -0.10623739929907797
+        ],
+        [
+          -0.07220995855142325,
+          0.11209101281498116,
+          -0.9910707980422538
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Transfer",
+      "reference": "plate_1",
+      "offset": [
+        -0.023749881408739477,
+        -0.029856947484347262,
+        0.1642342490088662
+      ],
+      "orientation": [
+        [
+          0.9877957916129961,
+          -0.06205083056933282,
+          -0.14286066112582127
+        ],
+        [
+          -0.08850418111377545,
+          -0.9783638658052545,
+          -0.1870057646490468
+        ],
+        [
+          -0.12816584567282666,
+          0.19736727315401256,
+          -0.9719154672556226
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Going down",
+      "reference": "plate_1",
+      "offset": [
+        0.042861934478258604,
+        -0.032082397902322736,
+        0.0828488805997538
+      ],
+      "orientation": [
+        [
+          0.9732365184836121,
+          -0.16071133939120072,
+          -0.164263643211093
+        ],
+        [
+          -0.18944142057993793,
+          -0.9656971883566101,
+          -0.17759754662942287
+        ],
+        [
+          -0.1300869988067603,
+          0.20396275589239624,
+          -0.9702971539431753
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "keep",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    },
+    {
+      "name": "Finish & open gripper",
+      "reference": "plate_1",
+      "offset": [
+        0.034777868680809024,
+        -0.028700868426453544,
+        0.049571910631237656
+      ],
+      "orientation": [
+        [
+          0.9595266019901179,
+          -0.22857628427807977,
+          -0.16450404961252332
+        ],
+        [
+          -0.2521031051555396,
+          -0.957516637628713,
+          -0.14002111639011505
+        ],
+        [
+          -0.12550985795636957,
+          0.1758259677346484,
+          -0.9763874766843034
+        ]
+      ],
+      "motion": "line",
+      "gripper": "keep",
+      "gripper_after": "open",
+      "grasp": "",
+      "ignore": [],
+      "carry": false,
+      "seat": false,
+      "hold_xy": false,
+      "joint": "",
+      "sweep": 0.0
+    }
+  ],
+  "source": "pi0.5 phase plan; 101 measured steps \u2192 7 waypoints; rollout success=True; selected demonstration 1/1; 1/1 rollouts succeeded; replay unverified"
+}

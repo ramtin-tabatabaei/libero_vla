@@ -1,0 +1,77 @@
+{
+  "suite": "libero_goal",
+  "task_id": 7,
+  "replay_success": true,
+  "attempts": [
+    {
+      "waypoints": 6,
+      "tolerance": 0.015,
+      "result": "Finished 6 waypoints \u2022 task success: True",
+      "success": true,
+      "seconds": 11.14,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok (1.1cm)"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok (1.1cm)"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_passed",
+  "language": "turn on the stove",
+  "rollout_success": true,
+  "demonstration": "task_waypoints/_demonstrations/libero_goal/task_007.json",
+  "recorded_steps": 71,
+  "reused_demonstration": false,
+  "waypoints": 6,
+  "source": "pi0.5 demonstration; 71 measured steps \u2192 6 waypoints; rollout success=True; replay passed (seed 0)",
+  "seconds": 16.86,
+  "checked_at": "2026-09-21T01:22:19.025880+00:00"
+}

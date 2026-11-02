@@ -1,0 +1,18 @@
+{
+  "suite": "libero_90",
+  "task_id": 12,
+  "replay_success": false,
+  "attempts": [],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "build_failed",
+  "language": "put the black bowl at the back on the plate",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_012.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "error": "ValueError: Demonstration has 24 gripper transitions; cannot preserve them in nine waypoints.",
+  "seconds": 36.45,
+  "checked_at": "2026-09-21T01:29:55.358316+00:00"
+}

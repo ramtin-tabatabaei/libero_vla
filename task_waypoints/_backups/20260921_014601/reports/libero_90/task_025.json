@@ -1,0 +1,255 @@
+{
+  "suite": "libero_90",
+  "task_id": 25,
+  "replay_success": false,
+  "attempts": [
+    {
+      "waypoints": 9,
+      "tolerance": 0.015,
+      "result": "Stopped at 9: failed: target missed by 5.6 cm",
+      "success": false,
+      "seconds": 19.98,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "failed: target missed by 5.6 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.035,
+      "result": "Stopped at 8: failed: target missed by 5.1 cm",
+      "success": false,
+      "seconds": 17.62,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "failed: target missed by 5.1 cm"
+        }
+      ]
+    },
+    {
+      "waypoints": 9,
+      "tolerance": 0.007,
+      "result": "Stopped at 9: failed: target missed by 5.6 cm",
+      "success": false,
+      "seconds": 18.17,
+      "trace": [
+        {
+          "index": 0,
+          "result": "Running"
+        },
+        {
+          "index": 0,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 1,
+          "result": "Running"
+        },
+        {
+          "index": 1,
+          "result": "ok"
+        },
+        {
+          "index": 2,
+          "result": "Running"
+        },
+        {
+          "index": 2,
+          "result": "ok (0.1cm)"
+        },
+        {
+          "index": 3,
+          "result": "Running"
+        },
+        {
+          "index": 3,
+          "result": "ok"
+        },
+        {
+          "index": 4,
+          "result": "Running"
+        },
+        {
+          "index": 4,
+          "result": "ok"
+        },
+        {
+          "index": 5,
+          "result": "Running"
+        },
+        {
+          "index": 5,
+          "result": "ok"
+        },
+        {
+          "index": 6,
+          "result": "Running"
+        },
+        {
+          "index": 6,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 7,
+          "result": "Running"
+        },
+        {
+          "index": 7,
+          "result": "ok (0.0cm)"
+        },
+        {
+          "index": 8,
+          "result": "Running"
+        },
+        {
+          "index": 8,
+          "result": "failed: target missed by 5.6 cm"
+        }
+      ]
+    }
+  ],
+  "mode": "demonstration",
+  "max_waypoints": 9,
+  "seed": 0,
+  "validation": "replay_failed",
+  "language": "put the black bowl on top of the cabinet",
+  "rollout_success": false,
+  "demonstration": "task_waypoints/_demonstrations/libero_90/task_025.json",
+  "recorded_steps": 500,
+  "reused_demonstration": false,
+  "waypoints": 9,
+  "source": "pi0.5 demonstration; 500 measured steps \u2192 9 waypoints; rollout success=False; replay FAILED \u2014 review required",
+  "seconds": 90.32,
+  "checked_at": "2026-09-21T01:34:45.503169+00:00"
+}
