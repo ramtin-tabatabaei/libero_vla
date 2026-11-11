@@ -87,6 +87,7 @@ demonstrations/               recorded demonstrations (JSON)
 - [WAYPOINT_STUDIO.md](WAYPOINT_STUDIO.md) — the waypoint editing GUI
 - [PI05_LIBERO.md](PI05_LIBERO.md) — hybrid RRT + VLA experiments
 - [PI05_BASE_LIBERO.md](PI05_BASE_LIBERO.md) — base pi0.5 on LIBERO
+- [PI05_40_EVALUATION.md](PI05_40_EVALUATION.md) — 2,400 episodes across 40 tasks, three robot starts, original/shuffled layouts, and ten trials
 - [recovery/RETURN_POINT_RL.md](recovery/RETURN_POINT_RL.md) — return-point selector
 - [recovery/RETURN_POINT_TRAINING.md](recovery/RETURN_POINT_TRAINING.md) — training it
 

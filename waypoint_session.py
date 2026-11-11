@@ -45,6 +45,7 @@ class Session:
         self.task = benchmark.get_benchmark_dict()[suite]().get_task(task_id)
         self.env = sp.build_env(self.args, self.task, camera_observations=cameras)
         self.attach()
+        self.normal_start_qpos = self.executor.scene.arm_qpos()
         return Chain(suite, task_id, self.task.language)
 
     def attach(self, settle=True):
@@ -87,6 +88,7 @@ class Session:
     def reset(self):
         self.env.reset()
         self.attach()
+        self.normal_start_qpos = self.executor.scene.arm_qpos()
 
     def run_policy(self, language, report=None, backend=None):
         from waypoint_policy import run
