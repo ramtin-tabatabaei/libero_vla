@@ -103,3 +103,21 @@ excluded — together they account for roughly 87 GB. Specifically:
 ```bash
 ~/miniconda3/envs/libero/bin/python -m pytest tests/
 ```
+
+## LIBERO-Pro2.0 and LIBERO-Max workspace
+
+The [LIBERO-Pro2 workspace](LIBERO-Pro2/README.md) adds the Pro2 and Max task
+GUI, a pi0.5 task bridge, download tools, and tests. Its scripts and environments
+are kept in `LIBERO-Pro2/`; the existing waypoint and recovery workflows above
+keep their original locations.
+
+To continue this workspace on another computer:
+
+```bash
+git clone https://github.com/ramtin-tabatabaei/libero_vla.git
+cd libero_vla/LIBERO-Pro2
+```
+
+Follow [LIBERO-Pro2/MIGRATION.md](LIBERO-Pro2/MIGRATION.md) to restore the pinned
+OpenPI checkout, simulator release, model weights, and optional Max dependencies.
+Credentials, model weights, datasets, and local environments are excluded from Git.

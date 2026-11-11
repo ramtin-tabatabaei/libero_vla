@@ -1,0 +1,1 @@
+Training download stopped at user request. Do not resume without a new user request.
